@@ -83,6 +83,8 @@ class main(service.Service):
     def _exec_action(self, action, datas, context={}):
         if isinstance(action, bool) or 'type' not in action:
             return
+        # Update context, adding the dynamic context of the action
+        context.update(tools.expr_eval(action.get('context','{}'), context.copy()))
         if action['type']=='ir.actions.act_window':
             for key in ('res_id', 'res_model', 'view_type', 'view_mode',
                     'limit', 'auto_refresh'):
@@ -150,6 +152,7 @@ class main(service.Service):
             if 'window' in datas:
                 win=datas['window']
                 del datas['window']
+            datas.update(action.get('datas',{}))
             datas['report_id'] = action['report_id']
             self.exec_report('custom', datas, context)
 
@@ -157,6 +160,7 @@ class main(service.Service):
             if 'window' in datas:
                 win=datas['window']
                 del datas['window']
+            datas.update(action.get('datas',{}))
             self.exec_report(action['report_name'], datas, context)
 
         elif action['type']=='ir.actions.act_url':
