@@ -29,14 +29,15 @@
 # Print or open a previewer
 #
 
-import os
 import base64
-import options 
-import sys
-import gc
 import common
-import time
+import gc
 import gtk
+import options
+import os
+import plartform
+import sys
+import time
 
 class Printer(object):
 
@@ -86,9 +87,9 @@ class Printer(object):
         os.waitpid(pid, 0)
 
     def _findPDFOpener(self):
-        if os.name != 'nt' and os.uname()[0] == 'Darwin' :
+        if platform.system() == 'Darwin':
             def opener(fn):
-                self.__opener( lambda: os.system('/usr/bin/open -a Preview ' + fn) )
+                self.__opener(lambda: os.system('open ' + fn))
             return opener
         if os.name == 'nt':
             if options.options['printer.preview']:
