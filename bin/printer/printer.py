@@ -35,7 +35,7 @@ import gc
 import gtk
 import options
 import os
-import plartform
+import platform
 import sys
 import time
 
