@@ -1,3 +1,27 @@
+2010-07-09: 5.0.12
+==================
+
+Bugfixes
+--------
+
+ * Not linked to a bug report:
+   * Don't force PDF files to open with Preview in OSX
+   * wizards: properly set context and 'datas' for report execution, making osv_memory wizards easier to use as first step for report
+   * O2M : traversing through unedited o2m should show show itself as modified
+   * Allow to use the on_change event without any arguments (Thanks cedk)
+ * https://launchpad.net/bugs/598129
+ * https://launchpad.net/bugs/530795
+   * Field should be displayed with proper type and widget on specific view
+ * https://launchpad.net/bugs/592043
+   * Fix the time widget with a float.time field
+
+
+Improvements
+------------
+
+ * add gnome-open and see for PDF opening in non-darwin unices, remove open
+
+
 2010-06-07: 5.0.11
 ==================
 
