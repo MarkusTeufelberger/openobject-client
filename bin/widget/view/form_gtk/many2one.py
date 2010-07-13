@@ -91,9 +91,11 @@ class dialog(object):
         vp.add(self.screen.widget)
 
         x,y = self.screen.screen_container.size_get()
+        x+=20
+        y+=25
         width, height = window.get_size()
         if not target:
-            vp.set_size_request(min(width - 20, x + 20),min(height - 60, y + 25))
+            vp.set_size_request(min(width - 20, x),min(height - 60, y))
         else:
             vp.set_size_request(x,y)
         self.dia.show_all()
