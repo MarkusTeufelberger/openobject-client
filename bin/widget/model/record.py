@@ -95,7 +95,9 @@ class ModelRecord(signal_event.signal_event):
             context.setdefault(CONCURRENCY_CHECK_FIELD, {})["%s,%d" % (self.resource, self.id)] = self._concurrency_check_data
         for name, field in self.mgroup.mfields.items():
             if isinstance(field, O2MField):
-                v = self.value[field.name]
+                if field.name not in self.value.keys():
+                    continue
+                v = self.value[field.name] 
                 from itertools import chain
                 for m in chain(v.models, v.models_removed):
                     m.update_context_with_concurrency_check_data(context)
