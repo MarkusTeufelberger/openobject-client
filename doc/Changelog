@@ -1,3 +1,21 @@
+2010-09-03: 5.0.13
+==================
+
+Bugfixes
+--------
+
+* Not linked to a bug report:
+  * dialog window size should be be bigger than the screen size otherwise useless scrollbars appears in case of invisible elements in the screen
+* https://launchpad.net/bugs/609049
+  * Translation popup made working correctly
+* https://launchpad.net/bugs/610437
+  * Fields missing in import when fields come with {'states':[]}
+* https://launchpad.net/bugs/504451
+  * Binary field can contain default values now onwards
+* https://launchpad.net/bugs/613586
+  * Back 2 Back Operations(unlink/create) on O2M editable forgets new values
+
+
 2010-07-09: 5.0.12
 ==================
 
