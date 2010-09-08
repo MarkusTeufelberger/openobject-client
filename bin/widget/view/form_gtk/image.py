@@ -34,13 +34,13 @@ import urllib
 
 NOIMAGE = file(common.terp_path_pixmaps("noimage.png"), 'rb').read()
 
-
 class image_wid(interface.widget_interface):
 
     def __init__(self, window, parent, model, attrs={}):
         interface.widget_interface.__init__(self, window, parent=parent, attrs=attrs)
 
         self._value = ''
+        self.attrs = attrs
         self.height = int(attrs.get('img_height', 100))
         self.width = int(attrs.get('img_width', 300))
 
@@ -113,13 +113,17 @@ class image_wid(interface.widget_interface):
             self.update_img()
 
     def sig_save_as(self, widget):
-        filename = common.file_selection(_('Save As...'), parent=self._window,
-                action=gtk.FILE_CHOOSER_ACTION_SAVE)
-        if filename:
-            file(filename, 'wb').write(decodestring(self._value))
+        if not self._value:
+            common.warning('There is no image!',_('Warning'))
+        else:
+            filename = common.file_selection(_('Save As...'), parent=self._window,
+                    action=gtk.FILE_CHOOSER_ACTION_SAVE)
+            if filename:
+                file(filename, 'wb').write(decodestring(self._value))
     
     def sig_remove(self, widget):
         self._value = ''
+        self.set_value(self._view.model, self._view.model.mgroup.mfields[self.attrs['name']])
         self.update_img()
 
     def drag_motion(self, widget, context, x, y, timestamp):
@@ -207,5 +211,6 @@ class image_wid(interface.widget_interface):
         self.but_save_as.set_sensitive(not value)
         self.but_remove.set_sensitive(not value)
         self.is_readonly = value
+    
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
