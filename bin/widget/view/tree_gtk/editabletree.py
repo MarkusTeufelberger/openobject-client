@@ -96,7 +96,7 @@ class EditableTreeView(gtk.TreeView, observator.Observable):
             renderer = column.get_cell_renderers()[0]
             if isinstance(renderer, gtk.CellRendererToggle):
                 return renderer.get_property('activatable')
-            else:
+            elif not isinstance(renderer, gtk.CellRendererProgress):
                 return renderer.get_property('editable')
         
         columns = super(EditableTreeView, self).get_columns()
