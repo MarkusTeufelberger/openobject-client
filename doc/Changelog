@@ -1,3 +1,20 @@
+2010-11-04: 5.0.15
+==================
+Bugfixes
+--------
+
+* Not linked to a bug report:
+
+  * Editable list view should not stop parsing if it has a button and a progressbar
+
+* https://launchpad.net/bugs/607077
+  * Binary Field : if required,should set field as invalid \nImage widget:Removing value should clear model too
+
+* https://launchpad.net/bugs/664203
+  * DB_Restore : OK button should be activated by default for action
+  * Make restore database dialog correctly trigger default button.
+
+
 2010-09-03: 5.0.14
 ==================
 2010-09-03: 5.0.13
