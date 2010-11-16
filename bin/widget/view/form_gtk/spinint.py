@@ -52,7 +52,7 @@ class spinint(interface.widget_interface):
             return False
         super(spinint, self).display(model, model_field)
         value = model_field.get(model)
-        if isinstance(value, int):
+        if isinstance(value, (int, long)):
             self.widget.set_value(value)
         elif isinstance(value, float):
             self.widget.set_value(int(value))
