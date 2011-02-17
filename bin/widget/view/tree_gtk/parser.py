@@ -646,7 +646,8 @@ class CellRendererButton(gtk.GenericCellRenderer):
     def __is_visible(self, widget, cell_area):
         states = self.__get_states()
         model_state = self.__get_model_state(widget, cell_area)
-        return (not states) or (model_state in states)
+        visible = not self.attrs.get('invisible')
+        return visible and ((not states) or (model_state in states))
 
     def do_set_property(self, pspec, value):
         setattr(self, pspec.name, value)
