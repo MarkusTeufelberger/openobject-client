@@ -329,6 +329,7 @@ widgets_type = {
     'many2many': (char.char, 2),
     'callto': (char.char, 2),
     'sip': (char.char, 2),
+    'progressbar': (spinbutton.spinbutton,2),
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
