@@ -20,7 +20,7 @@
 #
 
 name = 'openerp-client'
-version = '5.0.15'
+version = '5.0.16'
 description = 'OpenERP Client'
 long_desc = '''OpenERP is a complete ERP and CRM. The main features are accounting (analytic
 and financial), stock management, sales and purchases management, tasks
@@ -37,7 +37,7 @@ author = 'OpenERP S.A.'
 author_email = 'info@openerp.com'
 support_email = 'support@openerp.com'
 license = 'GPL-3'
-download_url='http://www.openerp.com/download/stable/source/openerp-client-5.0.15.tar.gz'
+download_url='http://www.openerp.com/download/stable/source/openerp-client-5.0.16.tar.gz'
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
