@@ -96,6 +96,7 @@ class image_wid(interface.widget_interface):
         self.alignment.add(self.hbox)
         self.widget.pack_start(self.alignment, expand=False, fill=False)
         self.update_img()
+        self.update_image_reg = False
 
     def sig_add(self, widget):
         filter_all = gtk.FileFilter()
@@ -115,7 +116,9 @@ class image_wid(interface.widget_interface):
             self._value = encodestring(file(filename, 'rb').read())
             self.update_img()
             if self.has_filename and self.has_filename in self._view.model.mgroup.mfields:
+                self.update_image_reg = True
                 self._view.model.set({self.has_filename: os.path.basename(filename)}, modified=True)
+                self.update_image_reg = False
                 
     def _get_filename(self):
         ## if a filename attribute is provided and if its referencing it to a 
@@ -220,7 +223,8 @@ class image_wid(interface.widget_interface):
     def display(self, model, model_field):
         if not model_field:
             return False
-        self._value = model_field.get(model)
+        if not self.update_image_reg:
+            self._value = model_field.get(model)
         super(image_wid, self).display(model, model_field)
         self.update_img()
 
