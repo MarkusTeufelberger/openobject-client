@@ -198,6 +198,7 @@ class EditableTreeView(gtk.TreeView, observator.Observable):
             entry.editing_done_id = entry.connect('editing_done', self.on_editing_done, model)
         if event.keyval in self.leaving_model_events:
             if model.validate() and self.screen.tree_saves:
+                model.mgroup.setContext(self.screen.context)
                 id = model.save()
                 if not id:
                     return True
