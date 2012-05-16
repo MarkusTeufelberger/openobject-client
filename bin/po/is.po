@@ -3,21 +3,22 @@
 # Icelandic translation for openobject-client
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
 # This file is distributed under the same license as the openobject-client package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
 #
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Sveinn í Felli <sveinki@nett.is>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: bin_po_openerp-client-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-05-14 09:48+0000\n"
+"PO-Revision-Date: 2012-05-15 16:37+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <rglug@rglug.is>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-05-15 05:27+0000\n"
-"X-Generator: Launchpad (build 15238)\n"
+"X-Launchpad-Export-Date: 2012-05-16 05:34+0000\n"
+"X-Generator: Launchpad (build 15247)\n"
 "Language: is\n"
 
 #: bin/common/common.py:88
@@ -3363,7 +3364,7 @@ msgstr "Næsta færsla"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Ekki áríðandi"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
@@ -3467,7 +3468,7 @@ msgstr "_Forskoða fyrir prentun"
 
 #: bin/openerp.ui.h:831
 msgid "Previe_w in editor"
-msgstr ""
+msgstr "_Forskoða í ritli"
 
 #: bin/openerp.ui.h:832
 msgid "Previous"
@@ -3551,7 +3552,7 @@ msgstr "Vista sem CSV"
 
 #: bin/openerp.ui.h:852
 msgid "Search ID:"
-msgstr ""
+msgstr "Leitarauðkenni (ID):"
 
 #: bin/openerp.ui.h:853
 msgid "Send a new request"
@@ -3575,23 +3576,23 @@ msgstr "Staða:"
 
 #: bin/openerp.ui.h:859
 msgid "Support Request"
-msgstr ""
+msgstr "Beiðni um stuðning"
 
 #: bin/openerp.ui.h:860
 msgid "Switch to list/form"
-msgstr ""
+msgstr "Skipta yfir í lista/eyðublað"
 
 #: bin/openerp.ui.h:861
 msgid "Switch view mode"
-msgstr ""
+msgstr "Skipta um skoðunarham"
 
 #: bin/openerp.ui.h:862
 msgid "Tabs default orientation"
-msgstr ""
+msgstr "Sjálfgefin stefna flipa"
 
 #: bin/openerp.ui.h:863
 msgid "Tabs default position"
-msgstr ""
+msgstr "Sjálfgefin staðsetning flipa"
 
 #: bin/openerp.ui.h:864
 msgid "Text Delimiter:"
@@ -3901,7 +3902,7 @@ msgstr "Útskýrðu hvað þú gerðir:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Samantekt um vandamál:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
