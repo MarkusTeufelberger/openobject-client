@@ -35,6 +35,7 @@ class screen_container(object):
         self.vp.set_shadow_type(gtk.SHADOW_NONE)
         self.vbox = gtk.VBox()
         self.last_active_filter = False
+        self.last_active_filter_public = False
         self.vbox.pack_end(self.sw)
         self.filter_vbox = None
         self.button = None
@@ -59,20 +60,30 @@ class screen_container(object):
     def widget_get(self):
         return self.vbox
 
-    def fill_filter_combo(self, model, action_name = False):
+    def fill_filter_combo(self, model, selected_filter_id=False):
         if self.handler_id:
             self.action_combo.handler_block(self.handler_id)
             self.action_list.clear()
             self.action_combo.handler_unblock(self.handler_id)
         active = False
         my_acts = rpc.session.rpc_exec_auth('/object', 'execute', 'ir.filters', 'get_filters', model)
-        filters_list=[['blk','','-- Filters --']]
-        sorted_filters = [[act.get('domain',act['id']),act['context'],act['name']] for act in my_acts]
-        sorted_filters.sort(lambda x, y: cmp(x[2], y[2]))
+        # List entry format: [filter_id, domain, context, user_id, real_name, display_name]
+        filters_list = [[-1,'blk','',0,'-- Filters --',_('-- Filters --')]]
+        sorted_filters = [[act['id'],
+                           act['domain'],
+                           act['context'],
+                           act.get('user_id') and act['user_id'][0] or 0,
+                           act['name'],
+                           "%s%s" % (act['name'], '' if act.get('user_id', rpc.session.uid) \
+                                                     else ' ' + _('(shared)'))]
+                               for act in my_acts]
+        sorted_filters.sort(lambda x, y: cmp(x[5], y[5]))
         filters_list += sorted_filters
-        filters_list += [['blk','',_('--Actions--')],['sf','',_('Save as a Filter')],['mf','',_('Manage Filters')]]
+        filters_list += [[-1,'blk','',0,'--Actions--',_('--Actions--')],
+                         [-1,'sf','',0,'Save as a Filter',_('Save as a Filter')],
+                         [-1,'mf','',0,'Manage Filters',_('Manage Filters')]]
         for index, action in enumerate(filters_list):
-            if action[-1] == action_name:
+            if action[0] == selected_filter_id:
                 active = index
             self.action_list.append(action)
         if active:
@@ -93,11 +104,12 @@ class screen_container(object):
             self.limit_combo.append(lim)
         self.combo.set_active(index)
 
-    def get_filter(self, filter_name):
-        def fnct(filterstore, path, iter, filter_name):
-            if filterstore.get(iter, 2)[0].lower() == filter_name.lower():
+    def get_filter(self, filter_id):
+        def fnct(filterstore, path, iter, filter_id):
+            if filterstore.get(iter, 0) == filter_id:
                 self.domain, self.context = filterstore.get(iter, 0, 1)
-        self.action_list.foreach(fnct, filter_name)
+                return True
+        self.action_list.foreach(fnct, filter_id)
         return str(self.domain),str(self.context)
 
     def add_custom_filter(self, button, screen):
@@ -154,11 +166,16 @@ class screen_container(object):
 
     #Action Filter and custom Filter Button
     #actions combo
-            self.action_list = gtk.ListStore(gobject.TYPE_STRING, gobject.TYPE_STRING, gobject.TYPE_STRING)
+            self.action_list = gtk.ListStore(gobject.TYPE_INT,    # action_id
+                                             gobject.TYPE_STRING, # domain
+                                             gobject.TYPE_STRING, # context
+                                             gobject.TYPE_INT,    # user_id
+                                             gobject.TYPE_STRING, # action name
+                                             gobject.TYPE_STRING) # display name
             self.action_combo = gtk.ComboBox(self.action_list)
             cell = gtk.CellRendererText()
             self.action_combo.pack_start(cell, True)
-            self.action_combo.add_attribute(cell, 'text', 2)
+            self.action_combo.add_attribute(cell, 'text', 5)
 
             self.fill_filter_combo(screen.name)
             self.action_combo.set_active(0)
