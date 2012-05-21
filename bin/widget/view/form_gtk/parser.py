@@ -361,6 +361,8 @@ class parser_form(widget.view.interface.parser_interface):
                     vbox.pack_start(gtk.HSeparator())
                 container.wid_add(vbox,colspan=int(attrs.get('colspan',1)), xoptions=xoptions,expand=int(attrs.get('expand',0)), ypadding=10, fill=int(attrs.get('fill', 0)))
             elif node.tag=='label':
+                if attrs.get('invisible') and eval(attrs['invisible'], {'context': self.screen.context}):
+                    continue
                 text = attrs.get('string', '')
                 if not text:
                     text = node.text
