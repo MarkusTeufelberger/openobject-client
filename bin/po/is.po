@@ -14,13 +14,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-01 04:44+0000\n"
-"X-Generator: Launchpad (build 14874)\n"
+"X-Launchpad-Export-Date: 2012-05-26 05:05+0000\n"
+"X-Generator: Launchpad (build 15288)\n"
 "Language: is\n"
 
 #: bin/common/common.py:88
 msgid "Close current tip"
-msgstr ""
+msgstr "Loka þessari vísbendingu"
 
 #: bin/common/common.py:89
 msgid ""
@@ -32,7 +32,7 @@ msgstr ""
 
 #: bin/common/common.py:99
 msgid "Disable all tips"
-msgstr ""
+msgstr "Gera allar vísbendingar óvirkar"
 
 #: bin/common/common.py:100
 msgid ""
@@ -44,21 +44,23 @@ msgstr ""
 
 #: bin/common/common.py:114 bin/common/common.py:116
 msgid "Tips"
-msgstr ""
+msgstr "Vísbendingar"
 
 #: bin/common/common.py:167
 msgid "OpenERP Computing"
-msgstr ""
+msgstr "OpenERP Computing"
 
 #: bin/common/common.py:186
 msgid "Operation in progress"
-msgstr ""
+msgstr "Aðgerð í gangi"
 
 #: bin/common/common.py:190
 msgid ""
 "Please wait,\n"
 "this operation may take a while..."
 msgstr ""
+"Bíddu aðeinst,\n"
+"þessi aðgerð gæti tekið svolítinn tíma..."
 
 #: bin/common/common.py:224
 #, python-format
@@ -147,7 +149,7 @@ msgstr ""
 
 #: bin/common/common.py:539
 msgid "Error"
-msgstr ""
+msgstr "Villa"
 
 #: bin/common/common.py:695
 msgid "Open with..."
@@ -169,7 +171,7 @@ msgstr ""
 
 #: bin/rpc.py:188
 msgid "Connection Error"
-msgstr ""
+msgstr "Villa í tengingu"
 
 #: bin/rpc.py:203 bin/rpc.py:205 bin/modules/action/wizard.py:161
 #: bin/modules/action/wizard.py:167 bin/modules/action/wizard.py:169
@@ -211,15 +213,15 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "OG"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "EÐA"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
-msgstr ""
+msgstr "Villa: "
 
 #: bin/widget_search/form.py:500
 msgid "The content of the form or exception if not valid"
@@ -227,7 +229,7 @@ msgstr ""
 
 #: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
 msgid "Start date"
-msgstr ""
+msgstr "Upphafsdagur"
 
 #: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
 #: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
@@ -238,7 +240,7 @@ msgstr ""
 
 #: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
 msgid "End date"
-msgstr ""
+msgstr "Lokadagur"
 
 #: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
 #: bin/widget/view/form_gtk/calendar.py:135
@@ -248,11 +250,11 @@ msgstr ""
 
 #: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
 msgid "Hour:"
-msgstr ""
+msgstr "Klukkustund:"
 
 #: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
 msgid "Minute:"
-msgstr ""
+msgstr "Mínúta:"
 
 #: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
@@ -283,7 +285,7 @@ msgstr "Nei"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "er"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -297,7 +299,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "er ekki"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -313,7 +315,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "er tómt"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -329,19 +331,19 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "er ekki tómt"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
 #: bin/widget_search/custom_filter_widgets.py:99
 msgid "contains"
-msgstr ""
+msgstr "inniheldur"
 
 #: bin/widget_search/custom_filter_widgets.py:41
 #: bin/widget_search/custom_filter_widgets.py:68
 #: bin/widget_search/custom_filter_widgets.py:99
 msgid "doesn't contain"
-msgstr ""
+msgstr "inniheldur ekki"
 
 #: bin/widget_search/custom_filter_widgets.py:89
 #: bin/widget/view/form_gtk/many2one.py:161
@@ -350,7 +352,7 @@ msgstr ""
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "er jafnt og"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -363,7 +365,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "á milli"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -381,22 +383,22 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
 msgid "is equal to"
-msgstr ""
+msgstr "er jafnt og"
 
 #: bin/widget_search/custom_filter_widgets.py:296
 #: bin/widget_search/custom_filter_widgets.py:337
 msgid "is not equal to"
-msgstr ""
+msgstr "er ekki jafnt og"
 
 #: bin/widget_search/custom_filter_widgets.py:297
 #: bin/widget_search/custom_filter_widgets.py:338
 msgid "greater than"
-msgstr ""
+msgstr "stærra en"
 
 #: bin/widget_search/custom_filter_widgets.py:298
 #: bin/widget_search/custom_filter_widgets.py:339
 msgid "less than"
-msgstr ""
+msgstr "minna en"
 
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
@@ -418,11 +420,11 @@ msgstr "Skýrsluflæði (margbrotið)"
 
 #: bin/plugins/__init__.py:40
 msgid "No available plugin for this resource !"
-msgstr "Engin innstunga tiltæk fyrir þessi aðföng !"
+msgstr "Engin viðbót tiltæk fyrir þessi tilföng !"
 
 #: bin/plugins/__init__.py:42
 msgid "Choose a Plugin"
-msgstr "Veldu innstungu"
+msgstr "Veldu viðbót"
 
 #: bin/options.py:122
 #, python-format
@@ -469,7 +471,7 @@ msgstr ""
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Óskilgreint"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -557,7 +559,7 @@ msgstr ""
 
 #: bin/widget/view/list.py:585
 msgid "Error !"
-msgstr ""
+msgstr "Villa !"
 
 #: bin/widget/view/list.py:634 bin/widget/view/form_gtk/many2one.py:388
 msgid "You must select a record to use the relation !"
@@ -597,7 +599,7 @@ msgstr ""
 
 #: bin/widget/view/calendar_gtk/parser.py:358 bin/openerp.ui.h:880
 msgid "Week"
-msgstr ""
+msgstr "Vika"
 
 #: bin/widget/view/calendar_gtk/parser_dummy.py:30
 msgid "Calendar View Error !"
@@ -622,11 +624,11 @@ msgstr ""
 #: bin/widget/view/tree_gtk/editabletree.py:140
 #, python-format
 msgid "Shortcut: %s"
-msgstr ""
+msgstr "Flýtilykill: %s"
 
 #: bin/widget/view/tree_gtk/editabletree.py:140
 msgid "F1 New - F2 Open/Search"
-msgstr ""
+msgstr "F1 Nýtt - F2 Opna/Leita"
 
 #: bin/widget/view/tree_gtk/editabletree.py:215
 #, python-format
@@ -635,7 +637,7 @@ msgstr ""
 
 #: bin/widget/view/screen_container.py:73
 msgid "--Actions--"
-msgstr ""
+msgstr "--Aðgerðir--"
 
 #: bin/widget/view/screen_container.py:73
 msgid "Save as a Filter"
@@ -647,35 +649,35 @@ msgstr ""
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Ótakmarkað"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
-msgstr ""
+msgstr "Opna þetta tilfang"
 
 #: bin/widget/view/form_gtk/many2one.py:172 bin/openerp.ui.h:712
 msgid "Action"
-msgstr ""
+msgstr "Aðgerð"
 
 #: bin/widget/view/form_gtk/many2one.py:173
 msgid "Report"
-msgstr ""
+msgstr "Skýrsla"
 
 #: bin/widget/view/form_gtk/reference.py:69 bin/openerp.ui.h:740
 msgid "Create a new resource"
-msgstr ""
+msgstr "Setja inn nýtt tilfang"
 
 #: bin/widget/view/form_gtk/reference.py:82
 msgid "Search / Open a resource"
@@ -699,11 +701,11 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/parser.py:310
 msgid "Field"
-msgstr ""
+msgstr "Gagnasvið"
 
 #: bin/widget/view/form_gtk/parser.py:310
 msgid "Object"
-msgstr ""
+msgstr "Hlutur"
 
 #: bin/widget/view/form_gtk/parser.py:651
 msgid "Enter some text to the related field before adding translations!"
@@ -724,23 +726,23 @@ msgstr ""
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
 msgid "Open..."
-msgstr ""
+msgstr "Opna..."
 
 #: bin/widget/view/form_gtk/binary.py:76
 msgid "Select"
-msgstr ""
+msgstr "Velja"
 
 #: bin/widget/view/form_gtk/binary.py:80
 msgid "Open"
-msgstr ""
+msgstr "Opna"
 
 #: bin/widget/view/form_gtk/binary.py:84 bin/widget/view/form_gtk/image.py:82
 msgid "Save As"
-msgstr ""
+msgstr "Vista sem"
 
 #: bin/widget/view/form_gtk/binary.py:88 bin/widget/view/form_gtk/image.py:93
 msgid "Clear"
-msgstr ""
+msgstr "Hreinsa"
 
 #: bin/widget/view/form_gtk/binary.py:123
 #: bin/widget/view/form_gtk/binary.py:167
@@ -755,7 +757,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/binary.py:142
 msgid "All Files"
-msgstr ""
+msgstr "Allar skrár"
 
 #: bin/widget/view/form_gtk/binary.py:152
 msgid "Select a file..."
@@ -765,7 +767,7 @@ msgstr ""
 #: bin/widget/view/form_gtk/image.py:133 bin/modules/gui/main.py:1486
 #: bin/modules/gui/window/win_export.py:352 bin/printer/printer.py:231
 msgid "Save As..."
-msgstr ""
+msgstr "Vista sem..."
 
 #: bin/widget/view/form_gtk/binary.py:181
 #, python-format
@@ -775,22 +777,22 @@ msgstr ""
 #: bin/widget/view/form_gtk/many2many.py:84
 #: bin/widget/view/form_gtk/one2many_list.py:210
 msgid "Previous Page"
-msgstr ""
+msgstr "Fyrri síða"
 
 #: bin/widget/view/form_gtk/many2many.py:88
 #: bin/widget/view/form_gtk/one2many_list.py:214
 msgid "Previous Record"
-msgstr ""
+msgstr "Fyrri færsla"
 
 #: bin/widget/view/form_gtk/many2many.py:96
 #: bin/widget/view/form_gtk/one2many_list.py:222
 msgid "Next Record"
-msgstr ""
+msgstr "Næsta færsla"
 
 #: bin/widget/view/form_gtk/many2many.py:100
 #: bin/widget/view/form_gtk/one2many_list.py:226
 msgid "Next Page"
-msgstr ""
+msgstr "Næsta síða"
 
 #: bin/widget/view/form_gtk/many2many.py:106
 #: bin/widget/view/form_gtk/one2many_list.py:238
@@ -804,7 +806,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
-msgstr ""
+msgstr "Hætta við"
 
 #: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
@@ -821,23 +823,23 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/one2many_list.py:167
 msgid "Set Default"
-msgstr ""
+msgstr "Gera sjálfgefið"
 
 #: bin/widget/view/form_gtk/one2many_list.py:196
 msgid "Create a new entry"
-msgstr ""
+msgstr "Búa til nýja færslu"
 
 #: bin/widget/view/form_gtk/one2many_list.py:200
 msgid "Edit this entry"
-msgstr ""
+msgstr "Breyta þessari færslu"
 
 #: bin/widget/view/form_gtk/one2many_list.py:204
 msgid "Remove this entry"
-msgstr ""
+msgstr "Fjarlægja þessa færslu"
 
 #: bin/widget/view/form_gtk/one2many_list.py:232
 msgid "Switch"
-msgstr ""
+msgstr "Skipta"
 
 #: bin/widget/view/form_gtk/one2many_list.py:279
 msgid "You have to select a resource !"
@@ -868,11 +870,11 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/image.py:102
 msgid "All files"
-msgstr ""
+msgstr "Allar skrár"
 
 #: bin/widget/view/form_gtk/image.py:106
 msgid "Images"
-msgstr ""
+msgstr "Myndir"
 
 #: bin/widget/view/form_gtk/image.py:131
 msgid "There is no image to save as !"
@@ -880,7 +882,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/image.py:131
 msgid "Warning"
-msgstr ""
+msgstr "Aðvörun"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
@@ -888,7 +890,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
-msgstr ""
+msgstr "Setja sem sjálfgefið"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "You can not set to the default value here !"
@@ -916,11 +918,11 @@ msgstr ""
 
 #: bin/modules/gui/main.py:93 bin/openerp.ui.h:856
 msgid "Server:"
-msgstr ""
+msgstr "Miðlari:"
 
 #: bin/modules/gui/main.py:104 bin/openerp.ui.h:724
 msgid "Change"
-msgstr ""
+msgstr "Breyta"
 
 #: bin/modules/gui/main.py:111
 msgid "Super Administrator Password:"
@@ -960,7 +962,7 @@ msgstr ""
 
 #: bin/modules/gui/main.py:280
 msgid "Database"
-msgstr ""
+msgstr "Gagnagrunnur"
 
 #: bin/modules/gui/main.py:292
 msgid "Your database has been upgraded."
@@ -1023,7 +1025,7 @@ msgstr ""
 #: bin/modules/gui/main.py:962
 #, python-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: bin/modules/gui/main.py:964
 msgid "No Company"
@@ -1092,7 +1094,7 @@ msgstr ""
 
 #: bin/modules/gui/main.py:1270
 msgid "Attachments"
-msgstr ""
+msgstr "Viðhengi"
 
 #: bin/modules/gui/main.py:1369
 msgid "Delete a database"
@@ -1149,7 +1151,7 @@ msgstr ""
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
-msgstr ""
+msgstr "Taka öryggisafrit af gagnagrunni"
 
 #: bin/modules/gui/main.py:1499
 msgid "Database backed up successfully !"
@@ -1165,7 +1167,7 @@ msgstr ""
 
 #: bin/modules/gui/window/win_import.py:51
 msgid "The file is empty !"
-msgstr ""
+msgstr "Skráin er tóm !"
 
 #: bin/modules/gui/window/win_import.py:51
 msgid "Importation !"
@@ -1198,7 +1200,7 @@ msgstr ""
 #: bin/modules/gui/window/win_import.py:104
 #: bin/modules/gui/window/win_import.py:108
 msgid "Field name"
-msgstr ""
+msgstr "Heiti gagnasviðs"
 
 #: bin/modules/gui/window/win_import.py:141
 #: bin/modules/gui/window/win_import.py:143
@@ -1208,7 +1210,7 @@ msgstr ""
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
-msgstr ""
+msgstr "Villa við að opna .CSV skrá."
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Input Error."
@@ -1228,7 +1230,7 @@ msgstr ""
 
 #: bin/modules/gui/window/win_import.py:201
 msgid "Import Error."
-msgstr ""
+msgstr "Innflutningsvilla."
 
 #: bin/modules/gui/window/win_import.py:232
 msgid "You have not selected any fields to import"
@@ -1250,40 +1252,42 @@ msgstr ""
 
 #: bin/modules/gui/window/win_selection.py:51
 msgid "Name"
-msgstr ""
+msgstr "Heiti"
 
 #: bin/modules/gui/window/win_selection.py:55
 msgid "Ressource Name"
-msgstr ""
+msgstr "Heiti tilfangs"
 
 #: bin/modules/gui/window/win_selection.py:55
 msgid "Names"
-msgstr ""
+msgstr "Heiti"
 
 #: bin/modules/gui/window/win_export.py:50
 msgid " record(s) saved !"
-msgstr ""
+msgstr " færslur vistaðar !"
 
 #: bin/modules/gui/window/win_export.py:53
 msgid ""
 "Operation failed !\n"
 "I/O error"
 msgstr ""
+"Aðgerð mistókst !\n"
+"I/O villa"
 
 #: bin/modules/gui/window/win_export.py:79
 #: bin/modules/gui/window/win_export.py:105
 msgid "Error Opening Excel !"
-msgstr ""
+msgstr "Villa við að opna Excel !"
 
 #: bin/modules/gui/window/win_export.py:141
 #: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
-msgstr ""
+msgstr "Heiti gagnasviðs"
 
 #: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
 #: bin/modules/gui/window/view_tree/view_tree_sc.py:41
 msgid "ID"
-msgstr ""
+msgstr "Auðkenni (ID)"
 
 #: bin/modules/gui/window/win_export.py:310
 msgid "What is the name of this export ?"
@@ -1291,11 +1295,11 @@ msgstr ""
 
 #: bin/modules/gui/window/win_export.py:344
 msgid "Exportation Error !"
-msgstr ""
+msgstr "Innflutningsvilla !"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "Opna í Excel"
 
 #: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
@@ -1329,11 +1333,11 @@ msgstr ""
 
 #: bin/modules/gui/window/form.py:271
 msgid "Creation User"
-msgstr ""
+msgstr "Notandi sem bjó til"
 
 #: bin/modules/gui/window/form.py:272
 msgid "Creation Date"
-msgstr ""
+msgstr "Búið til þann"
 
 #: bin/modules/gui/window/form.py:273
 msgid "Latest Modification by"
@@ -1371,7 +1375,7 @@ msgstr ""
 
 #: bin/modules/gui/window/form.py:368
 msgid "Warning !"
-msgstr ""
+msgstr "Aðvörun !"
 
 #: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
 msgid ""
@@ -1385,31 +1389,31 @@ msgstr ""
 
 #: bin/modules/gui/window/form.py:456
 msgid "Print Screen"
-msgstr ""
+msgstr "Prenta skjá"
 
 #: bin/modules/gui/window/form.py:476
 msgid "No record selected"
-msgstr ""
+msgstr "Engin færsla valin"
 
 #: bin/modules/gui/window/form.py:481
 msgid "New document"
-msgstr ""
+msgstr "Nýtt skjal"
 
 #: bin/modules/gui/window/form.py:483
 msgid "Editing document (id: "
-msgstr ""
+msgstr "Breyti skjali (id: "
 
 #: bin/modules/gui/window/form.py:486
 msgid "Record: "
-msgstr ""
+msgstr "Færsla: "
 
 #: bin/modules/gui/window/form.py:487
 msgid " of "
-msgstr ""
+msgstr " af "
 
 #: bin/modules/gui/window/win_preference.py:68
 msgid "Preferences"
-msgstr ""
+msgstr "Valkostir"
 
 #: bin/modules/gui/window/win_preference.py:86
 msgid ""
@@ -1419,15 +1423,15 @@ msgstr ""
 
 #: bin/modules/gui/window/win_preference.py:88
 msgid "Default language modified !"
-msgstr ""
+msgstr "Sjálfgefnu tungumáli breytt !"
 
 #: bin/modules/gui/window/win_extension.py:43
 msgid "Extension"
-msgstr ""
+msgstr "Skráarending"
 
 #: bin/modules/gui/window/win_extension.py:43
 msgid "Application"
-msgstr ""
+msgstr "Forrit"
 
 #: bin/modules/gui/window/win_extension.py:43
 msgid "Print Processor"
@@ -1439,15 +1443,15 @@ msgstr ""
 
 #: bin/modules/gui/window/win_extension.py:111 bin/openerp.ui.h:758
 msgid "Extension Manager"
-msgstr ""
+msgstr "Viðbótastjóri"
 
 #: bin/modules/gui/window/view_tree/parse.py:35
 msgid "Tree"
-msgstr ""
+msgstr "Greinar"
 
 #: bin/modules/gui/window/view_tree/view_tree_sc.py:45
 msgid "Description"
-msgstr ""
+msgstr "Lýsing"
 
 #: bin/openerp-client.py:141
 msgid "Closing OpenERP, KeyboardInterrupt"
@@ -1467,7 +1471,7 @@ msgstr ""
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Prenta skýrslu"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -1492,6 +1496,18 @@ msgid ""
 "Mail: sales@tiny.be\n"
 "Web: http://tiny.be"
 msgstr ""
+"\n"
+"(c) 2003-dagsins í dag - Tiny sprl\n"
+"OpenERP er búið til af Tiny sprl:\n"
+"\n"
+"Tiny sprl\n"
+"40 Chaussée de Namur\n"
+"1367 Gérompont\n"
+"Belgium\n"
+"\n"
+"Tel : (+32)81.81.37.00\n"
+"Mail: sales@tiny.be\n"
+"Web: http://tiny.be"
 
 #: bin/openerp.ui.h:14
 #, no-c-format
@@ -2134,6 +2150,631 @@ msgid ""
 "\n"
 "                     END OF TERMS AND CONDITIONS\n"
 msgstr ""
+"                    [Eftirfarandi texti hefur enn sem komið er einungis "
+"lagalegt\n"
+"gildi á frummálinu,  og er því hér óþýddur].\n"
+"\n"
+"                    GNU GENERAL PUBLIC LICENSE\n"
+"                       Version 3, 29 June 2007\n"
+"\n"
+" Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"                            Preamble\n"
+"\n"
+"  The GNU General Public License is a free, copyleft license for\n"
+"software and other kinds of works.\n"
+"\n"
+"  The licenses for most software and other practical works are designed\n"
+"to take away your freedom to share and change the works.  By contrast,\n"
+"the GNU General Public License is intended to guarantee your freedom to\n"
+"share and change all versions of a program--to make sure it remains free\n"
+"software for all its users.  We, the Free Software Foundation, use the\n"
+"GNU General Public License for most of our software; it applies also to\n"
+"any other work released this way by its authors.  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"them if you wish), that you receive source code or can get it if you\n"
+"want it, that you can change the software or use pieces of it in new\n"
+"free programs, and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to prevent others from denying you\n"
+"these rights or asking you to surrender the rights.  Therefore, you have\n"
+"certain responsibilities if you distribute copies of the software, or if\n"
+"you modify it: responsibilities to respect the freedom of others.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must pass on to the recipients the same\n"
+"freedoms that you received.  You must make sure that they, too, receive\n"
+"or can get the source code.  And you must show them these terms so they\n"
+"know their rights.\n"
+"\n"
+"  Developers that use the GNU GPL protect your rights with two steps:\n"
+"(1) assert copyright on the software, and (2) offer you this License\n"
+"giving you legal permission to copy, distribute and/or modify it.\n"
+"\n"
+"  For the developers' and authors' protection, the GPL clearly explains\n"
+"that there is no warranty for this free software.  For both users' and\n"
+"authors' sake, the GPL requires that modified versions be marked as\n"
+"changed, so that their problems will not be attributed erroneously to\n"
+"authors of previous versions.\n"
+"\n"
+"  Some devices are designed to deny users access to install or run\n"
+"modified versions of the software inside them, although the manufacturer\n"
+"can do so.  This is fundamentally incompatible with the aim of\n"
+"protecting users' freedom to change the software.  The systematic\n"
+"pattern of such abuse occurs in the area of products for individuals to\n"
+"use, which is precisely where it is most unacceptable.  Therefore, we\n"
+"have designed this version of the GPL to prohibit the practice for those\n"
+"products.  If such problems arise substantially in other domains, we\n"
+"stand ready to extend this provision to those domains in future versions\n"
+"of the GPL, as needed to protect the freedom of users.\n"
+"\n"
+"  Finally, every program is threatened constantly by software patents.\n"
+"States should not allow patents to restrict development and use of\n"
+"software on general-purpose computers, but in those that do, we wish to\n"
+"avoid the special danger that patents applied to a free program could\n"
+"make it effectively proprietary.  To prevent this, the GPL assures that\n"
+"patents cannot be used to render the program non-free.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"                       TERMS AND CONDITIONS\n"
+"\n"
+"  0. Definitions.\n"
+"\n"
+"  \"This License\" refers to version 3 of the GNU General Public License.\n"
+"\n"
+"  \"Copyright\" also means copyright-like laws that apply to other kinds of\n"
+"works, such as semiconductor masks.\n"
+"\n"
+"  \"The Program\" refers to any copyrightable work licensed under this\n"
+"License.  Each licensee is addressed as \"you\".  \"Licensees\" and\n"
+"\"recipients\" may be individuals or organizations.\n"
+"\n"
+"  To \"modify\" a work means to copy from or adapt all or part of the work\n"
+"in a fashion requiring copyright permission, other than the making of an\n"
+"exact copy.  The resulting work is called a \"modified version\" of the\n"
+"earlier work or a work \"based on\" the earlier work.\n"
+"\n"
+"  A \"covered work\" means either the unmodified Program or a work based\n"
+"on the Program.\n"
+"\n"
+"  To \"propagate\" a work means to do anything with it that, without\n"
+"permission, would make you directly or secondarily liable for\n"
+"infringement under applicable copyright law, except executing it on a\n"
+"computer or modifying a private copy.  Propagation includes copying,\n"
+"distribution (with or without modification), making available to the\n"
+"public, and in some countries other activities as well.\n"
+"\n"
+"  To \"convey\" a work means any kind of propagation that enables other\n"
+"parties to make or receive copies.  Mere interaction with a user through\n"
+"a computer network, with no transfer of a copy, is not conveying.\n"
+"\n"
+"  An interactive user interface displays \"Appropriate Legal Notices\"\n"
+"to the extent that it includes a convenient and prominently visible\n"
+"feature that (1) displays an appropriate copyright notice, and (2)\n"
+"tells the user that there is no warranty for the work (except to the\n"
+"extent that warranties are provided), that licensees may convey the\n"
+"work under this License, and how to view a copy of this License.  If\n"
+"the interface presents a list of user commands or options, such as a\n"
+"menu, a prominent item in the list meets this criterion.\n"
+"\n"
+"  1. Source Code.\n"
+"\n"
+"  The \"source code\" for a work means the preferred form of the work\n"
+"for making modifications to it.  \"Object code\" means any non-source\n"
+"form of a work.\n"
+"\n"
+"  A \"Standard Interface\" means an interface that either is an official\n"
+"standard defined by a recognized standards body, or, in the case of\n"
+"interfaces specified for a particular programming language, one that\n"
+"is widely used among developers working in that language.\n"
+"\n"
+"  The \"System Libraries\" of an executable work include anything, other\n"
+"than the work as a whole, that (a) is included in the normal form of\n"
+"packaging a Major Component, but which is not part of that Major\n"
+"Component, and (b) serves only to enable use of the work with that\n"
+"Major Component, or to implement a Standard Interface for which an\n"
+"implementation is available to the public in source code form.  A\n"
+"\"Major Component\", in this context, means a major essential component\n"
+"(kernel, window system, and so on) of the specific operating system\n"
+"(if any) on which the executable work runs, or a compiler used to\n"
+"produce the work, or an object code interpreter used to run it.\n"
+"\n"
+"  The \"Corresponding Source\" for a work in object code form means all\n"
+"the source code needed to generate, install, and (for an executable\n"
+"work) run the object code and to modify the work, including scripts to\n"
+"control those activities.  However, it does not include the work's\n"
+"System Libraries, or general-purpose tools or generally available free\n"
+"programs which are used unmodified in performing those activities but\n"
+"which are not part of the work.  For example, Corresponding Source\n"
+"includes interface definition files associated with source files for\n"
+"the work, and the source code for shared libraries and dynamically\n"
+"linked subprograms that the work is specifically designed to require,\n"
+"such as by intimate data communication or control flow between those\n"
+"subprograms and other parts of the work.\n"
+"\n"
+"  The Corresponding Source need not include anything that users\n"
+"can regenerate automatically from other parts of the Corresponding\n"
+"Source.\n"
+"\n"
+"  The Corresponding Source for a work in source code form is that\n"
+"same work.\n"
+"\n"
+"  2. Basic Permissions.\n"
+"\n"
+"  All rights granted under this License are granted for the term of\n"
+"copyright on the Program, and are irrevocable provided the stated\n"
+"conditions are met.  This License explicitly affirms your unlimited\n"
+"permission to run the unmodified Program.  The output from running a\n"
+"covered work is covered by this License only if the output, given its\n"
+"content, constitutes a covered work.  This License acknowledges your\n"
+"rights of fair use or other equivalent, as provided by copyright law.\n"
+"\n"
+"  You may make, run and propagate covered works that you do not\n"
+"convey, without conditions so long as your license otherwise remains\n"
+"in force.  You may convey covered works to others for the sole purpose\n"
+"of having them make modifications exclusively for you, or provide you\n"
+"with facilities for running those works, provided that you comply with\n"
+"the terms of this License in conveying all material for which you do\n"
+"not control copyright.  Those thus making or running the covered works\n"
+"for you must do so exclusively on your behalf, under your direction\n"
+"and control, on terms that prohibit them from making any copies of\n"
+"your copyrighted material outside their relationship with you.\n"
+"\n"
+"  Conveying under any other circumstances is permitted solely under\n"
+"the conditions stated below.  Sublicensing is not allowed; section 10\n"
+"makes it unnecessary.\n"
+"\n"
+"  3. Protecting Users' Legal Rights From Anti-Circumvention Law.\n"
+"\n"
+"  No covered work shall be deemed part of an effective technological\n"
+"measure under any applicable law fulfilling obligations under article\n"
+"11 of the WIPO copyright treaty adopted on 20 December 1996, or\n"
+"similar laws prohibiting or restricting circumvention of such\n"
+"measures.\n"
+"\n"
+"  When you convey a covered work, you waive any legal power to forbid\n"
+"circumvention of technological measures to the extent such circumvention\n"
+"is effected by exercising rights under this License with respect to\n"
+"the covered work, and you disclaim any intention to limit operation or\n"
+"modification of the work as a means of enforcing, against the work's\n"
+"users, your or third parties' legal rights to forbid circumvention of\n"
+"technological measures.\n"
+"\n"
+"  4. Conveying Verbatim Copies.\n"
+"\n"
+"  You may convey verbatim copies of the Program's source code as you\n"
+"receive it, in any medium, provided that you conspicuously and\n"
+"appropriately publish on each copy an appropriate copyright notice;\n"
+"keep intact all notices stating that this License and any\n"
+"non-permissive terms added in accord with section 7 apply to the code;\n"
+"keep intact all notices of the absence of any warranty; and give all\n"
+"recipients a copy of this License along with the Program.\n"
+"\n"
+"  You may charge any price or no price for each copy that you convey,\n"
+"and you may offer support or warranty protection for a fee.\n"
+"\n"
+"  5. Conveying Modified Source Versions.\n"
+"\n"
+"  You may convey a work based on the Program, or the modifications to\n"
+"produce it from the Program, in the form of source code under the\n"
+"terms of section 4, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) The work must carry prominent notices stating that you modified\n"
+"    it, and giving a relevant date.\n"
+"\n"
+"    b) The work must carry prominent notices stating that it is\n"
+"    released under this License and any conditions added under section\n"
+"    7.  This requirement modifies the requirement in section 4 to\n"
+"    \"keep intact all notices\".\n"
+"\n"
+"    c) You must license the entire work, as a whole, under this\n"
+"    License to anyone who comes into possession of a copy.  This\n"
+"    License will therefore apply, along with any applicable section 7\n"
+"    additional terms, to the whole of the work, and all its parts,\n"
+"    regardless of how they are packaged.  This License gives no\n"
+"    permission to license the work in any other way, but it does not\n"
+"    invalidate such permission if you have separately received it.\n"
+"\n"
+"    d) If the work has interactive user interfaces, each must display\n"
+"    Appropriate Legal Notices; however, if the Program has interactive\n"
+"    interfaces that do not display Appropriate Legal Notices, your\n"
+"    work need not make them do so.\n"
+"\n"
+"  A compilation of a covered work with other separate and independent\n"
+"works, which are not by their nature extensions of the covered work,\n"
+"and which are not combined with it such as to form a larger program,\n"
+"in or on a volume of a storage or distribution medium, is called an\n"
+"\"aggregate\" if the compilation and its resulting copyright are not\n"
+"used to limit the access or legal rights of the compilation's users\n"
+"beyond what the individual works permit.  Inclusion of a covered work\n"
+"in an aggregate does not cause this License to apply to the other\n"
+"parts of the aggregate.\n"
+"\n"
+"  6. Conveying Non-Source Forms.\n"
+"\n"
+"  You may convey a covered work in object code form under the terms\n"
+"of sections 4 and 5, provided that you also convey the\n"
+"machine-readable Corresponding Source under the terms of this License,\n"
+"in one of these ways:\n"
+"\n"
+"    a) Convey the object code in, or embodied in, a physical product\n"
+"    (including a physical distribution medium), accompanied by the\n"
+"    Corresponding Source fixed on a durable physical medium\n"
+"    customarily used for software interchange.\n"
+"\n"
+"    b) Convey the object code in, or embodied in, a physical product\n"
+"    (including a physical distribution medium), accompanied by a\n"
+"    written offer, valid for at least three years and valid for as\n"
+"    long as you offer spare parts or customer support for that product\n"
+"    model, to give anyone who possesses the object code either (1) a\n"
+"    copy of the Corresponding Source for all the software in the\n"
+"    product that is covered by this License, on a durable physical\n"
+"    medium customarily used for software interchange, for a price no\n"
+"    more than your reasonable cost of physically performing this\n"
+"    conveying of source, or (2) access to copy the\n"
+"    Corresponding Source from a network server at no charge.\n"
+"\n"
+"    c) Convey individual copies of the object code with a copy of the\n"
+"    written offer to provide the Corresponding Source.  This\n"
+"    alternative is allowed only occasionally and noncommercially, and\n"
+"    only if you received the object code with such an offer, in accord\n"
+"    with subsection 6b.\n"
+"\n"
+"    d) Convey the object code by offering access from a designated\n"
+"    place (gratis or for a charge), and offer equivalent access to the\n"
+"    Corresponding Source in the same way through the same place at no\n"
+"    further charge.  You need not require recipients to copy the\n"
+"    Corresponding Source along with the object code.  If the place to\n"
+"    copy the object code is a network server, the Corresponding Source\n"
+"    may be on a different server (operated by you or a third party)\n"
+"    that supports equivalent copying facilities, provided you maintain\n"
+"    clear directions next to the object code saying where to find the\n"
+"    Corresponding Source.  Regardless of what server hosts the\n"
+"    Corresponding Source, you remain obligated to ensure that it is\n"
+"    available for as long as needed to satisfy these requirements.\n"
+"\n"
+"    e) Convey the object code using peer-to-peer transmission, provided\n"
+"    you inform other peers where the object code and Corresponding\n"
+"    Source of the work are being offered to the general public at no\n"
+"    charge under subsection 6d.\n"
+"\n"
+"  A separable portion of the object code, whose source code is excluded\n"
+"from the Corresponding Source as a System Library, need not be\n"
+"included in conveying the object code work.\n"
+"\n"
+"  A \"User Product\" is either (1) a \"consumer product\", which means any\n"
+"tangible personal property which is normally used for personal, family,\n"
+"or household purposes, or (2) anything designed or sold for incorporation\n"
+"into a dwelling.  In determining whether a product is a consumer product,\n"
+"doubtful cases shall be resolved in favor of coverage.  For a particular\n"
+"product received by a particular user, \"normally used\" refers to a\n"
+"typical or common use of that class of product, regardless of the status\n"
+"of the particular user or of the way in which the particular user\n"
+"actually uses, or expects or is expected to use, the product.  A product\n"
+"is a consumer product regardless of whether the product has substantial\n"
+"commercial, industrial or non-consumer uses, unless such uses represent\n"
+"the only significant mode of use of the product.\n"
+"\n"
+"  \"Installation Information\" for a User Product means any methods,\n"
+"procedures, authorization keys, or other information required to install\n"
+"and execute modified versions of a covered work in that User Product from\n"
+"a modified version of its Corresponding Source.  The information must\n"
+"suffice to ensure that the continued functioning of the modified object\n"
+"code is in no case prevented or interfered with solely because\n"
+"modification has been made.\n"
+"\n"
+"  If you convey an object code work under this section in, or with, or\n"
+"specifically for use in, a User Product, and the conveying occurs as\n"
+"part of a transaction in which the right of possession and use of the\n"
+"User Product is transferred to the recipient in perpetuity or for a\n"
+"fixed term (regardless of how the transaction is characterized), the\n"
+"Corresponding Source conveyed under this section must be accompanied\n"
+"by the Installation Information.  But this requirement does not apply\n"
+"if neither you nor any third party retains the ability to install\n"
+"modified object code on the User Product (for example, the work has\n"
+"been installed in ROM).\n"
+"\n"
+"  The requirement to provide Installation Information does not include a\n"
+"requirement to continue to provide support service, warranty, or updates\n"
+"for a work that has been modified or installed by the recipient, or for\n"
+"the User Product in which it has been modified or installed.  Access to a\n"
+"network may be denied when the modification itself materially and\n"
+"adversely affects the operation of the network or violates the rules and\n"
+"protocols for communication across the network.\n"
+"\n"
+"  Corresponding Source conveyed, and Installation Information provided,\n"
+"in accord with this section must be in a format that is publicly\n"
+"documented (and with an implementation available to the public in\n"
+"source code form), and must require no special password or key for\n"
+"unpacking, reading or copying.\n"
+"\n"
+"  7. Additional Terms.\n"
+"\n"
+"  \"Additional permissions\" are terms that supplement the terms of this\n"
+"License by making exceptions from one or more of its conditions.\n"
+"Additional permissions that are applicable to the entire Program shall\n"
+"be treated as though they were included in this License, to the extent\n"
+"that they are valid under applicable law.  If additional permissions\n"
+"apply only to part of the Program, that part may be used separately\n"
+"under those permissions, but the entire Program remains governed by\n"
+"this License without regard to the additional permissions.\n"
+"\n"
+"  When you convey a copy of a covered work, you may at your option\n"
+"remove any additional permissions from that copy, or from any part of\n"
+"it.  (Additional permissions may be written to require their own\n"
+"removal in certain cases when you modify the work.)  You may place\n"
+"additional permissions on material, added by you to a covered work,\n"
+"for which you have or can give appropriate copyright permission.\n"
+"\n"
+"  Notwithstanding any other provision of this License, for material you\n"
+"add to a covered work, you may (if authorized by the copyright holders of\n"
+"that material) supplement the terms of this License with terms:\n"
+"\n"
+"    a) Disclaiming warranty or limiting liability differently from the\n"
+"    terms of sections 15 and 16 of this License; or\n"
+"\n"
+"    b) Requiring preservation of specified reasonable legal notices or\n"
+"    author attributions in that material or in the Appropriate Legal\n"
+"    Notices displayed by works containing it; or\n"
+"\n"
+"    c) Prohibiting misrepresentation of the origin of that material, or\n"
+"    requiring that modified versions of such material be marked in\n"
+"    reasonable ways as different from the original version; or\n"
+"\n"
+"    d) Limiting the use for publicity purposes of names of licensors or\n"
+"    authors of the material; or\n"
+"\n"
+"    e) Declining to grant rights under trademark law for use of some\n"
+"    trade names, trademarks, or service marks; or\n"
+"\n"
+"    f) Requiring indemnification of licensors and authors of that\n"
+"    material by anyone who conveys the material (or modified versions of\n"
+"    it) with contractual assumptions of liability to the recipient, for\n"
+"    any liability that these contractual assumptions directly impose on\n"
+"    those licensors and authors.\n"
+"\n"
+"  All other non-permissive additional terms are considered \"further\n"
+"restrictions\" within the meaning of section 10.  If the Program as you\n"
+"received it, or any part of it, contains a notice stating that it is\n"
+"governed by this License along with a term that is a further\n"
+"restriction, you may remove that term.  If a license document contains\n"
+"a further restriction but permits relicensing or conveying under this\n"
+"License, you may add to a covered work material governed by the terms\n"
+"of that license document, provided that the further restriction does\n"
+"not survive such relicensing or conveying.\n"
+"\n"
+"  If you add terms to a covered work in accord with this section, you\n"
+"must place, in the relevant source files, a statement of the\n"
+"additional terms that apply to those files, or a notice indicating\n"
+"where to find the applicable terms.\n"
+"\n"
+"  Additional terms, permissive or non-permissive, may be stated in the\n"
+"form of a separately written license, or stated as exceptions;\n"
+"the above requirements apply either way.\n"
+"\n"
+"  8. Termination.\n"
+"\n"
+"  You may not propagate or modify a covered work except as expressly\n"
+"provided under this License.  Any attempt otherwise to propagate or\n"
+"modify it is void, and will automatically terminate your rights under\n"
+"this License (including any patent licenses granted under the third\n"
+"paragraph of section 11).\n"
+"\n"
+"  However, if you cease all violation of this License, then your\n"
+"license from a particular copyright holder is reinstated (a)\n"
+"provisionally, unless and until the copyright holder explicitly and\n"
+"finally terminates your license, and (b) permanently, if the copyright\n"
+"holder fails to notify you of the violation by some reasonable means\n"
+"prior to 60 days after the cessation.\n"
+"\n"
+"  Moreover, your license from a particular copyright holder is\n"
+"reinstated permanently if the copyright holder notifies you of the\n"
+"violation by some reasonable means, this is the first time you have\n"
+"received notice of violation of this License (for any work) from that\n"
+"copyright holder, and you cure the violation prior to 30 days after\n"
+"your receipt of the notice.\n"
+"\n"
+"  Termination of your rights under this section does not terminate the\n"
+"licenses of parties who have received copies or rights from you under\n"
+"this License.  If your rights have been terminated and not permanently\n"
+"reinstated, you do not qualify to receive new licenses for the same\n"
+"material under section 10.\n"
+"\n"
+"  9. Acceptance Not Required for Having Copies.\n"
+"\n"
+"  You are not required to accept this License in order to receive or\n"
+"run a copy of the Program.  Ancillary propagation of a covered work\n"
+"occurring solely as a consequence of using peer-to-peer transmission\n"
+"to receive a copy likewise does not require acceptance.  However,\n"
+"nothing other than this License grants you permission to propagate or\n"
+"modify any covered work.  These actions infringe copyright if you do\n"
+"not accept this License.  Therefore, by modifying or propagating a\n"
+"covered work, you indicate your acceptance of this License to do so.\n"
+"\n"
+"  10. Automatic Licensing of Downstream Recipients.\n"
+"\n"
+"  Each time you convey a covered work, the recipient automatically\n"
+"receives a license from the original licensors, to run, modify and\n"
+"propagate that work, subject to this License.  You are not responsible\n"
+"for enforcing compliance by third parties with this License.\n"
+"\n"
+"  An \"entity transaction\" is a transaction transferring control of an\n"
+"organization, or substantially all assets of one, or subdividing an\n"
+"organization, or merging organizations.  If propagation of a covered\n"
+"work results from an entity transaction, each party to that\n"
+"transaction who receives a copy of the work also receives whatever\n"
+"licenses to the work the party's predecessor in interest had or could\n"
+"give under the previous paragraph, plus a right to possession of the\n"
+"Corresponding Source of the work from the predecessor in interest, if\n"
+"the predecessor has it or can get it with reasonable efforts.\n"
+"\n"
+"  You may not impose any further restrictions on the exercise of the\n"
+"rights granted or affirmed under this License.  For example, you may\n"
+"not impose a license fee, royalty, or other charge for exercise of\n"
+"rights granted under this License, and you may not initiate litigation\n"
+"(including a cross-claim or counterclaim in a lawsuit) alleging that\n"
+"any patent claim is infringed by making, using, selling, offering for\n"
+"sale, or importing the Program or any portion of it.\n"
+"\n"
+"  11. Patents.\n"
+"\n"
+"  A \"contributor\" is a copyright holder who authorizes use under this\n"
+"License of the Program or a work on which the Program is based.  The\n"
+"work thus licensed is called the contributor's \"contributor version\".\n"
+"\n"
+"  A contributor's \"essential patent claims\" are all patent claims\n"
+"owned or controlled by the contributor, whether already acquired or\n"
+"hereafter acquired, that would be infringed by some manner, permitted\n"
+"by this License, of making, using, or selling its contributor version,\n"
+"but do not include claims that would be infringed only as a\n"
+"consequence of further modification of the contributor version.  For\n"
+"purposes of this definition, \"control\" includes the right to grant\n"
+"patent sublicenses in a manner consistent with the requirements of\n"
+"this License.\n"
+"\n"
+"  Each contributor grants you a non-exclusive, worldwide, royalty-free\n"
+"patent license under the contributor's essential patent claims, to\n"
+"make, use, sell, offer for sale, import and otherwise run, modify and\n"
+"propagate the contents of its contributor version.\n"
+"\n"
+"  In the following three paragraphs, a \"patent license\" is any express\n"
+"agreement or commitment, however denominated, not to enforce a patent\n"
+"(such as an express permission to practice a patent or covenant not to\n"
+"sue for patent infringement).  To \"grant\" such a patent license to a\n"
+"party means to make such an agreement or commitment not to enforce a\n"
+"patent against the party.\n"
+"\n"
+"  If you convey a covered work, knowingly relying on a patent license,\n"
+"and the Corresponding Source of the work is not available for anyone\n"
+"to copy, free of charge and under the terms of this License, through a\n"
+"publicly available network server or other readily accessible means,\n"
+"then you must either (1) cause the Corresponding Source to be so\n"
+"available, or (2) arrange to deprive yourself of the benefit of the\n"
+"patent license for this particular work, or (3) arrange, in a manner\n"
+"consistent with the requirements of this License, to extend the patent\n"
+"license to downstream recipients.  \"Knowingly relying\" means you have\n"
+"actual knowledge that, but for the patent license, your conveying the\n"
+"covered work in a country, or your recipient's use of the covered work\n"
+"in a country, would infringe one or more identifiable patents in that\n"
+"country that you have reason to believe are valid.\n"
+"\n"
+"  If, pursuant to or in connection with a single transaction or\n"
+"arrangement, you convey, or propagate by procuring conveyance of, a\n"
+"covered work, and grant a patent license to some of the parties\n"
+"receiving the covered work authorizing them to use, propagate, modify\n"
+"or convey a specific copy of the covered work, then the patent license\n"
+"you grant is automatically extended to all recipients of the covered\n"
+"work and works based on it.\n"
+"\n"
+"  A patent license is \"discriminatory\" if it does not include within\n"
+"the scope of its coverage, prohibits the exercise of, or is\n"
+"conditioned on the non-exercise of one or more of the rights that are\n"
+"specifically granted under this License.  You may not convey a covered\n"
+"work if you are a party to an arrangement with a third party that is\n"
+"in the business of distributing software, under which you make payment\n"
+"to the third party based on the extent of your activity of conveying\n"
+"the work, and under which the third party grants, to any of the\n"
+"parties who would receive the covered work from you, a discriminatory\n"
+"patent license (a) in connection with copies of the covered work\n"
+"conveyed by you (or copies made from those copies), or (b) primarily\n"
+"for and in connection with specific products or compilations that\n"
+"contain the covered work, unless you entered into that arrangement,\n"
+"or that patent license was granted, prior to 28 March 2007.\n"
+"\n"
+"  Nothing in this License shall be construed as excluding or limiting\n"
+"any implied license or other defenses to infringement that may\n"
+"otherwise be available to you under applicable patent law.\n"
+"\n"
+"  12. No Surrender of Others' Freedom.\n"
+"\n"
+"  If conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot convey a\n"
+"covered work so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you may\n"
+"not convey it at all.  For example, if you agree to terms that obligate you\n"
+"to collect a royalty for further conveying from those to whom you convey\n"
+"the Program, the only way you could satisfy both those terms and this\n"
+"License would be to refrain entirely from conveying the Program.\n"
+"\n"
+"  13. Use with the GNU Affero General Public License.\n"
+"\n"
+"  Notwithstanding any other provision of this License, you have\n"
+"permission to link or combine any covered work with a work licensed\n"
+"under version 3 of the GNU Affero General Public License into a single\n"
+"combined work, and to convey the resulting work.  The terms of this\n"
+"License will continue to apply to the part which is the covered work,\n"
+"but the special requirements of the GNU Affero General Public License,\n"
+"section 13, concerning interaction through a network will apply to the\n"
+"combination as such.\n"
+"\n"
+"  14. Revised Versions of this License.\n"
+"\n"
+"  The Free Software Foundation may publish revised and/or new versions of\n"
+"the GNU General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"  Each version is given a distinguishing version number.  If the\n"
+"Program specifies that a certain numbered version of the GNU General\n"
+"Public License \"or any later version\" applies to it, you have the\n"
+"option of following the terms and conditions either of that numbered\n"
+"version or of any later version published by the Free Software\n"
+"Foundation.  If the Program does not specify a version number of the\n"
+"GNU General Public License, you may choose any version ever published\n"
+"by the Free Software Foundation.\n"
+"\n"
+"  If the Program specifies that a proxy can decide which future\n"
+"versions of the GNU General Public License can be used, that proxy's\n"
+"public statement of acceptance of a version permanently authorizes you\n"
+"to choose that version for the Program.\n"
+"\n"
+"  Later license versions may give you additional or different\n"
+"permissions.  However, no additional obligations are imposed on any\n"
+"author or copyright holder as a result of your choosing to follow a\n"
+"later version.\n"
+"\n"
+"  15. Disclaimer of Warranty.\n"
+"\n"
+"  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY\n"
+"APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT\n"
+"HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY\n"
+"OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\n"
+"THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n"
+"PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM\n"
+"IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF\n"
+"ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n"
+"\n"
+"  16. Limitation of Liability.\n"
+"\n"
+"  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS\n"
+"THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY\n"
+"GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE\n"
+"USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF\n"
+"DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD\n"
+"PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),\n"
+"EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF\n"
+"SUCH DAMAGES.\n"
+"\n"
+"  17. Interpretation of Sections 15 and 16.\n"
+"\n"
+"  If the disclaimer of warranty and limitation of liability provided\n"
+"above cannot be given local legal effect according to their terms,\n"
+"reviewing courts shall apply local law that most closely approximates\n"
+"an absolute waiver of all civil liability in connection with the\n"
+"Program, unless a warranty or assumption of liability accompanies a\n"
+"copy of the Program in return for a fee.\n"
+"\n"
+"                     END OF TERMS AND CONDITIONS\n"
 
 #: bin/openerp.ui.h:648
 msgid "(<i>admin</i>, by default)"
@@ -2145,79 +2786,79 @@ msgstr ""
 
 #: bin/openerp.ui.h:650
 msgid "<Ctrl> + <Enter>"
-msgstr ""
+msgstr "<Ctrl> + <Enter>"
 
 #: bin/openerp.ui.h:651
 msgid "<Ctrl> + <Esc>"
-msgstr ""
+msgstr "<Ctrl> + <Esc>"
 
 #: bin/openerp.ui.h:652
 msgid "<Ctrl> + <PgDn>"
-msgstr ""
+msgstr "<Ctrl> + <PgDn>"
 
 #: bin/openerp.ui.h:653
 msgid "<Ctrl> + <PgUp>"
-msgstr ""
+msgstr "<Ctrl> + <PgUp>"
 
 #: bin/openerp.ui.h:654
 msgid "<Ctrl> + C"
-msgstr ""
+msgstr "<Ctrl> + C"
 
 #: bin/openerp.ui.h:655
 msgid "<Ctrl> + D"
-msgstr ""
+msgstr "<Ctrl> + D"
 
 #: bin/openerp.ui.h:656
 msgid "<Ctrl> + F"
-msgstr ""
+msgstr "<Ctrl> + F"
 
 #: bin/openerp.ui.h:657
 msgid "<Ctrl> + L"
-msgstr ""
+msgstr "<Ctrl> + L"
 
 #: bin/openerp.ui.h:658
 msgid "<Ctrl> + N"
-msgstr ""
+msgstr "<Ctrl> + N"
 
 #: bin/openerp.ui.h:659
 msgid "<Ctrl> + O"
-msgstr ""
+msgstr "<Ctrl> + O"
 
 #: bin/openerp.ui.h:660
 msgid "<Ctrl> + S"
-msgstr ""
+msgstr "<Ctrl> + S"
 
 #: bin/openerp.ui.h:661
 msgid "<Ctrl> + V"
-msgstr ""
+msgstr "<Ctrl> + V"
 
 #: bin/openerp.ui.h:662
 msgid "<Ctrl> + W"
-msgstr ""
+msgstr "<Ctrl> + W"
 
 #: bin/openerp.ui.h:663
 msgid "<Ctrl> + X"
-msgstr ""
+msgstr "<Ctrl> + X"
 
 #: bin/openerp.ui.h:664
 msgid "<Enter>"
-msgstr ""
+msgstr "<Enter>"
 
 #: bin/openerp.ui.h:665
 msgid "<PgDn>"
-msgstr ""
+msgstr "<PgDn>"
 
 #: bin/openerp.ui.h:666
 msgid "<PgUp>"
-msgstr ""
+msgstr "<PgUp>"
 
 #: bin/openerp.ui.h:667
 msgid "<Shift> + <Tab>"
-msgstr ""
+msgstr "<Shift> + <Tab>"
 
 #: bin/openerp.ui.h:668
 msgid "<Tab>"
-msgstr ""
+msgstr "<Tab>"
 
 #: bin/openerp.ui.h:669
 msgid ""
@@ -2320,11 +2961,11 @@ msgstr ""
 
 #: bin/openerp.ui.h:702
 msgid "<b>Your email:</b>"
-msgstr ""
+msgstr "<b>Tölvupóstfangið þitt:</b>"
 
 #: bin/openerp.ui.h:703
 msgid "<b>Your name:</b>"
-msgstr ""
+msgstr "<b>Nafnið þitt:</b>"
 
 #: bin/openerp.ui.h:704
 msgid "<i>When editing a resource in a popup window</i>"
@@ -2370,11 +3011,11 @@ msgstr ""
 
 #: bin/openerp.ui.h:713
 msgid "Add Field Names"
-msgstr ""
+msgstr "Bæta við heiti á gagnasviði"
 
 #: bin/openerp.ui.h:714
 msgid "Add a new line/field"
-msgstr ""
+msgstr "Bæta við nýrri línu/gagnasviði"
 
 #: bin/openerp.ui.h:715
 msgid "Add an attachment to this resource"
@@ -2382,39 +3023,39 @@ msgstr ""
 
 #: bin/openerp.ui.h:716
 msgid "Administrator Password"
-msgstr ""
+msgstr "Lykilorð kerfisstjóra"
 
 #: bin/openerp.ui.h:717
 msgid "Attachment"
-msgstr ""
+msgstr "Viðhengi"
 
 #: bin/openerp.ui.h:718
 msgid "Auto-Complete text field"
-msgstr ""
+msgstr "Sjálfvirk klárun í textareit"
 
 #: bin/openerp.ui.h:719
 msgid "Auto-Detect"
-msgstr ""
+msgstr "Finna sjálkrafa"
 
 #: bin/openerp.ui.h:720
 msgid "Available Fields"
-msgstr ""
+msgstr "Tiltæk gagnasvið"
 
 #: bin/openerp.ui.h:721
 msgid "Bottom"
-msgstr ""
+msgstr "Neðst"
 
 #: bin/openerp.ui.h:722
 msgid "CSV Parameters"
-msgstr ""
+msgstr "CSV viðföng"
 
 #: bin/openerp.ui.h:723
 msgid "Calendar"
-msgstr ""
+msgstr "Dagatal"
 
 #: bin/openerp.ui.h:725
 msgid "Change password"
-msgstr ""
+msgstr "Breyta lykilorði"
 
 #: bin/openerp.ui.h:726
 msgid ""
@@ -2442,23 +3083,23 @@ msgstr ""
 
 #: bin/openerp.ui.h:730
 msgid "Close Tab"
-msgstr ""
+msgstr "Loka flipa"
 
 #: bin/openerp.ui.h:731
 msgid "Close this window"
-msgstr ""
+msgstr "Loka þessum glugga"
 
 #: bin/openerp.ui.h:732
 msgid "Close window without saving"
-msgstr ""
+msgstr "Loka glugga án þess að vista"
 
 #: bin/openerp.ui.h:733
 msgid "Company:"
-msgstr ""
+msgstr "Fyrirtæki:"
 
 #: bin/openerp.ui.h:734
 msgid "Compare"
-msgstr ""
+msgstr "Bera saman"
 
 #: bin/openerp.ui.h:735
 msgid "Concurrency exception"
@@ -2466,51 +3107,51 @@ msgstr ""
 
 #: bin/openerp.ui.h:736
 msgid "Connect"
-msgstr ""
+msgstr "Tengjast"
 
 #: bin/openerp.ui.h:737
 msgid "Copy selected text"
-msgstr ""
+msgstr "Afrita valinn texta"
 
 #: bin/openerp.ui.h:738
 msgid "Copy this resource"
-msgstr ""
+msgstr "Afrita þetta tilfang"
 
 #: bin/openerp.ui.h:739
 msgid "Create a new database"
-msgstr ""
+msgstr "Búa til nýjan gagnagrunn"
 
 #: bin/openerp.ui.h:741
 msgid "Cut selected text"
-msgstr ""
+msgstr "Klippa valinn texta"
 
 #: bin/openerp.ui.h:742
 msgid "Database:"
-msgstr ""
+msgstr "Gagnagrunnur:"
 
 #: bin/openerp.ui.h:743
 msgid "Databases"
-msgstr ""
+msgstr "Gagnagrunnar"
 
 #: bin/openerp.ui.h:744
 msgid "Day"
-msgstr ""
+msgstr "Dagur"
 
 #: bin/openerp.ui.h:745
 msgid "Default _value:"
-msgstr ""
+msgstr "Sjálfgefið _gildi:"
 
 #: bin/openerp.ui.h:746
 msgid "Delete"
-msgstr ""
+msgstr "Eyða"
 
 #: bin/openerp.ui.h:747
 msgid "Delete this resource"
-msgstr ""
+msgstr "Eyða þessu tilfangi"
 
 #: bin/openerp.ui.h:748
 msgid "Diagram"
-msgstr ""
+msgstr "Skýringamynd"
 
 #: bin/openerp.ui.h:749
 msgid "Dro_p database"
@@ -2534,7 +3175,7 @@ msgstr ""
 
 #: bin/openerp.ui.h:754
 msgid "Encoding:"
-msgstr ""
+msgstr "Stafatafla:"
 
 #: bin/openerp.ui.h:755
 msgid "Enter Filter Name:"
@@ -2550,27 +3191,27 @@ msgstr ""
 
 #: bin/openerp.ui.h:759
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: bin/openerp.ui.h:760
 msgid "F2"
-msgstr ""
+msgstr "F2"
 
 #: bin/openerp.ui.h:761
 msgid "Field Separator: "
-msgstr ""
+msgstr "Aðgreinir gagnasviða: "
 
 #: bin/openerp.ui.h:762
 msgid "Field _Name:"
-msgstr ""
+msgstr "_Heiti gagnasviðs:"
 
 #: bin/openerp.ui.h:763
 msgid "Fields to Export"
-msgstr ""
+msgstr "Gagnasvið sem á að flytja út"
 
 #: bin/openerp.ui.h:764
 msgid "File to Import: "
-msgstr ""
+msgstr "Skrá sem á að flytja inn: "
 
 #: bin/openerp.ui.h:765
 msgid "Filter Entry"
@@ -2578,23 +3219,23 @@ msgstr ""
 
 #: bin/openerp.ui.h:766
 msgid "Find"
-msgstr ""
+msgstr "Finna"
 
 #: bin/openerp.ui.h:767
 msgid "Find / Search"
-msgstr ""
+msgstr "Finna / Leita"
 
 #: bin/openerp.ui.h:768
 msgid "For_m"
-msgstr ""
+msgstr "Eyðu_blað"
 
 #: bin/openerp.ui.h:769
 msgid "Form"
-msgstr ""
+msgstr "Eyðublað"
 
 #: bin/openerp.ui.h:770
 msgid "Gantt"
-msgstr ""
+msgstr "Gantt"
 
 #: bin/openerp.ui.h:771
 msgid "Go to next matched resource"
@@ -2610,39 +3251,39 @@ msgstr ""
 
 #: bin/openerp.ui.h:774
 msgid "Graph"
-msgstr ""
+msgstr "Línurit"
 
 #: bin/openerp.ui.h:775
 msgid "Hello World!"
-msgstr ""
+msgstr "Halló heimur!"
 
 #: bin/openerp.ui.h:776
 msgid "Horizontal"
-msgstr ""
+msgstr "Lárétt"
 
 #: bin/openerp.ui.h:777
 msgid "I_mport data..."
-msgstr ""
+msgstr "Flytja i_nn gögn..."
 
 #: bin/openerp.ui.h:778
 msgid "Import Compatible"
-msgstr ""
+msgstr "Flytja inn samhæft"
 
 #: bin/openerp.ui.h:779
 msgid "Import from CSV"
-msgstr ""
+msgstr "Flytja inn úr CSV"
 
 #: bin/openerp.ui.h:780
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Flýtilyklar"
 
 #: bin/openerp.ui.h:781
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Flýtileiðir á lyklaborði"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latneskt1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
@@ -2650,19 +3291,19 @@ msgstr ""
 
 #: bin/openerp.ui.h:784
 msgid "Left"
-msgstr ""
+msgstr "Vinstri"
 
 #: bin/openerp.ui.h:785
 msgid "Lines to Skip:"
-msgstr ""
+msgstr "Línur sem á að sleppa:"
 
 #: bin/openerp.ui.h:786
 msgid "List"
-msgstr ""
+msgstr "Listi"
 
 #: bin/openerp.ui.h:787
 msgid "Main Shortcuts"
-msgstr ""
+msgstr "Aðalflýtilyklar"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
@@ -2670,47 +3311,47 @@ msgstr ""
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
-msgstr ""
+msgstr "Valmynd"
 
 #: bin/openerp.ui.h:790
 msgid "Month"
-msgstr ""
+msgstr "Mánuður"
 
 #: bin/openerp.ui.h:791
 msgid "N_othing"
-msgstr ""
+msgstr "E_kkert"
 
 #: bin/openerp.ui.h:792
 msgid "Ne_xt"
-msgstr ""
+msgstr "Á_fram"
 
 #: bin/openerp.ui.h:793
 msgid "Ne_xt Tip"
-msgstr ""
+msgstr "Næ_sta vísbending"
 
 #: bin/openerp.ui.h:794
 msgid "New"
-msgstr ""
+msgstr "Nýtt"
 
 #: bin/openerp.ui.h:795
 msgid "New database name:"
-msgstr ""
+msgstr "Heiti á nýjum gagnagrunni:"
 
 #: bin/openerp.ui.h:796
 msgid "New password confirmation:"
-msgstr ""
+msgstr "Staðfesting á nýju lykilorði:"
 
 #: bin/openerp.ui.h:797
 msgid "New password:"
-msgstr ""
+msgstr "Nýtt lykilorð:"
 
 #: bin/openerp.ui.h:798
 msgid "Next"
-msgstr ""
+msgstr "Næst"
 
 #: bin/openerp.ui.h:799
 msgid "Next Tab"
-msgstr ""
+msgstr "Næsti flipi"
 
 #: bin/openerp.ui.h:800
 msgid "Next editable widget"
@@ -2718,15 +3359,15 @@ msgstr ""
 
 #: bin/openerp.ui.h:801
 msgid "Next record"
-msgstr ""
+msgstr "Næsta færsla"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Ekki áríðandi"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
-msgstr ""
+msgstr "Eldra lykilorð"
 
 #: bin/openerp.ui.h:804
 msgid "Open ERP - Forms widget"
@@ -2734,59 +3375,59 @@ msgstr ""
 
 #: bin/openerp.ui.h:805
 msgid "Open current field"
-msgstr ""
+msgstr "Opna þetta gagnasvið"
 
 #: bin/openerp.ui.h:809
 msgid "OpenERP - About"
-msgstr ""
+msgstr "OpenERP - Um hugbúnaðinn"
 
 #: bin/openerp.ui.h:810
 msgid "OpenERP - Confirmation"
-msgstr ""
+msgstr "OpenERP - Staðfesting"
 
 #: bin/openerp.ui.h:811
 msgid "OpenERP - Dialog"
-msgstr ""
+msgstr "OpenERP - Samskiptagluggi"
 
 #: bin/openerp.ui.h:812
 msgid "OpenERP - Export to CSV"
-msgstr ""
+msgstr "OpenERP - Flytja út í CSV"
 
 #: bin/openerp.ui.h:813
 msgid "OpenERP - Forms"
-msgstr ""
+msgstr "OpenERP - Eyðublöð"
 
 #: bin/openerp.ui.h:814
 msgid "OpenERP - License"
-msgstr ""
+msgstr "OpenERP - Notkunarskilmálar"
 
 #: bin/openerp.ui.h:815
 msgid "OpenERP - Login"
-msgstr ""
+msgstr "OpenERP - Innskráning"
 
 #: bin/openerp.ui.h:816
 msgid "OpenERP - Preferences"
-msgstr ""
+msgstr "OpenERP - Valkostir"
 
 #: bin/openerp.ui.h:817
 msgid "OpenERP - Search"
-msgstr ""
+msgstr "OpenERP - Leit"
 
 #: bin/openerp.ui.h:818
 msgid "OpenERP - Selection"
-msgstr ""
+msgstr "OpenERP - Valið"
 
 #: bin/openerp.ui.h:819
 msgid "OpenERP - Tree Resources"
-msgstr ""
+msgstr "OpenERP - Greinar tilfanga"
 
 #: bin/openerp.ui.h:820
 msgid "OpenERP Message"
-msgstr ""
+msgstr "OpenERP skilaboð"
 
 #: bin/openerp.ui.h:821
 msgid "OpenERP license"
-msgstr ""
+msgstr "OpenERP notkunarleyfi"
 
 #: bin/openerp.ui.h:822
 msgid "OpenERP, Field Preference target"
@@ -2794,47 +3435,47 @@ msgstr ""
 
 #: bin/openerp.ui.h:823 bin/win_error.ui.h:11
 msgid "Other comments:"
-msgstr ""
+msgstr "Aðrar athugasemdir:"
 
 #: bin/openerp.ui.h:824
 msgid "Password:"
-msgstr ""
+msgstr "Lykilorð:"
 
 #: bin/openerp.ui.h:825
 msgid "Paste selected text"
-msgstr ""
+msgstr "Líma vainn texta"
 
 #: bin/openerp.ui.h:826
 msgid "Phone number:"
-msgstr ""
+msgstr "Símanúmer:"
 
 #: bin/openerp.ui.h:827
 msgid "Port:"
-msgstr ""
+msgstr "Gátt:"
 
 #: bin/openerp.ui.h:828
 msgid "Pre_vious"
-msgstr ""
+msgstr "_Fyrra"
 
 #: bin/openerp.ui.h:829
 msgid "Pre_vious Tip"
-msgstr ""
+msgstr "Fyrri _vísbending"
 
 #: bin/openerp.ui.h:830
 msgid "Previe_w before print"
-msgstr ""
+msgstr "_Forskoða fyrir prentun"
 
 #: bin/openerp.ui.h:831
 msgid "Previe_w in editor"
-msgstr ""
+msgstr "_Forskoða í ritli"
 
 #: bin/openerp.ui.h:832
 msgid "Previous"
-msgstr ""
+msgstr "Fyrri"
 
 #: bin/openerp.ui.h:833
 msgid "Previous Tab"
-msgstr ""
+msgstr "Fyrri flipi"
 
 #: bin/openerp.ui.h:834
 msgid "Previous editable widget"
@@ -2842,123 +3483,123 @@ msgstr ""
 
 #: bin/openerp.ui.h:835
 msgid "Previous record"
-msgstr ""
+msgstr "Fyrri færsla"
 
 #: bin/openerp.ui.h:836
 msgid "Previous tab"
-msgstr ""
+msgstr "Fyrri flipi"
 
 #: bin/openerp.ui.h:837
 msgid "Print documents"
-msgstr ""
+msgstr "Prenta skjöl"
 
 #: bin/openerp.ui.h:838
 msgid "Protocol connection:"
-msgstr ""
+msgstr "Samskiptamáti tengingar:"
 
 #: bin/openerp.ui.h:839
 msgid "Read my Requests"
-msgstr ""
+msgstr "Lesa beiðnirnar mínar"
 
 #: bin/openerp.ui.h:840
 msgid "Reloa_d / Undo"
-msgstr ""
+msgstr "En_durlesa / Afturkalla"
 
 #: bin/openerp.ui.h:841
 msgid "Reload"
-msgstr ""
+msgstr "Endurlesa"
 
 #: bin/openerp.ui.h:842
 msgid "Remove List"
-msgstr ""
+msgstr "Fjarlægja lista"
 
 #: bin/openerp.ui.h:843
 msgid "Repeat latest _action"
-msgstr ""
+msgstr "Endurtaka síðustu _aðgerð"
 
 #: bin/openerp.ui.h:844
 msgid "Requests:"
-msgstr ""
+msgstr "Beiðnir:"
 
 #: bin/openerp.ui.h:845
 msgid "Restore a database"
-msgstr ""
+msgstr "Endurheimta gagnagrunn"
 
 #: bin/openerp.ui.h:846
 msgid "Right"
-msgstr ""
+msgstr "Hægri"
 
 #: bin/openerp.ui.h:847
 msgid "Right Toolbar"
-msgstr ""
+msgstr "Tækjaslá hægra megin"
 
 #: bin/openerp.ui.h:848
 msgid "Save"
-msgstr ""
+msgstr "Vista"
 
 #: bin/openerp.ui.h:849
 msgid "Save List"
-msgstr ""
+msgstr "Vista lista"
 
 #: bin/openerp.ui.h:850
 msgid "Save and Close window"
-msgstr ""
+msgstr "Vista og loka glugga"
 
 #: bin/openerp.ui.h:851
 msgid "Save as CSV"
-msgstr ""
+msgstr "Vista sem CSV"
 
 #: bin/openerp.ui.h:852
 msgid "Search ID:"
-msgstr ""
+msgstr "Leitarauðkenni (ID):"
 
 #: bin/openerp.ui.h:853
 msgid "Send a new request"
-msgstr ""
+msgstr "Senda nýja beiðni"
 
 #: bin/openerp.ui.h:854
 msgid "September 2008"
-msgstr ""
+msgstr "September 2008"
 
 #: bin/openerp.ui.h:855
 msgid "Server"
-msgstr ""
+msgstr "Þjónn"
 
 #: bin/openerp.ui.h:857
 msgid "Shortcuts"
-msgstr ""
+msgstr "Flýtilyklar"
 
 #: bin/openerp.ui.h:858
 msgid "State:"
-msgstr ""
+msgstr "Staða:"
 
 #: bin/openerp.ui.h:859
 msgid "Support Request"
-msgstr ""
+msgstr "Beiðni um stuðning"
 
 #: bin/openerp.ui.h:860
 msgid "Switch to list/form"
-msgstr ""
+msgstr "Skipta yfir í lista/eyðublað"
 
 #: bin/openerp.ui.h:861
 msgid "Switch view mode"
-msgstr ""
+msgstr "Skipta um skoðunarham"
 
 #: bin/openerp.ui.h:862
 msgid "Tabs default orientation"
-msgstr ""
+msgstr "Sjálfgefin stefna flipa"
 
 #: bin/openerp.ui.h:863
 msgid "Tabs default position"
-msgstr ""
+msgstr "Sjálfgefin staðsetning flipa"
 
 #: bin/openerp.ui.h:864
 msgid "Text Delimiter:"
-msgstr ""
+msgstr "Afmörkun texta"
 
 #: bin/openerp.ui.h:865
 msgid "Text _and Icons"
-msgstr ""
+msgstr "Texti _og táknmyndir"
 
 #: bin/openerp.ui.h:866
 msgid ""
@@ -2987,67 +3628,67 @@ msgstr ""
 
 #: bin/openerp.ui.h:870
 msgid "Tip of the Day"
-msgstr ""
+msgstr "Vísbending dagsins"
 
 #: bin/openerp.ui.h:871
 msgid "Today"
-msgstr ""
+msgstr "Í dag"
 
 #: bin/openerp.ui.h:872
 msgid "Top"
-msgstr ""
+msgstr "Efst"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Áríðandi"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
-msgstr ""
+msgstr "_Notandahandbók"
 
 #: bin/openerp.ui.h:876
 msgid "User:"
-msgstr ""
+msgstr "Notandi:"
 
 #: bin/openerp.ui.h:877
 msgid "Vertical"
-msgstr ""
+msgstr "Lóðrétt"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Mjög áríðandi"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
-msgstr ""
+msgstr "Skoða anná_la"
 
 #: bin/openerp.ui.h:881
 msgid "Write anyway"
-msgstr ""
+msgstr "Skrifa samt"
 
 #: bin/openerp.ui.h:882
 msgid "Your selection:"
-msgstr ""
+msgstr "Valið þitt:"
 
 #: bin/openerp.ui.h:883
 msgid "_About..."
-msgstr ""
+msgstr "_Upplýsingar..."
 
 #: bin/openerp.ui.h:884
 msgid "_Add"
-msgstr ""
+msgstr "Bæt_a við"
 
 #: bin/openerp.ui.h:885
 msgid "_Backup database"
-msgstr ""
+msgstr "Taka öryggis_afrit af gagnagrunni"
 
 #: bin/openerp.ui.h:886
 msgid "_Connect..."
-msgstr ""
+msgstr "_Tengjast..."
 
 #: bin/openerp.ui.h:887
 msgid "_Contact"
@@ -3055,23 +3696,23 @@ msgstr ""
 
 #: bin/openerp.ui.h:888
 msgid "_Contextual Help"
-msgstr ""
+msgstr "Samhengis_hjálp"
 
 #: bin/openerp.ui.h:889
 msgid "_Delete"
-msgstr ""
+msgstr "_Eyða"
 
 #: bin/openerp.ui.h:890
 msgid "_Disconnect"
-msgstr ""
+msgstr "_Aftengjast"
 
 #: bin/openerp.ui.h:891
 msgid "_Display a new tip next time?"
-msgstr ""
+msgstr "_Birta nýja vísbendingu næst?"
 
 #: bin/openerp.ui.h:892
 msgid "_Domain:"
-msgstr ""
+msgstr "_Lén:"
 
 #: bin/openerp.ui.h:893
 msgid "_Download Migrations Code"
@@ -3079,23 +3720,23 @@ msgstr ""
 
 #: bin/openerp.ui.h:894
 msgid "_Duplicate"
-msgstr ""
+msgstr "Fjölfal_da"
 
 #: bin/openerp.ui.h:895
 msgid "_Execute a plugin"
-msgstr ""
+msgstr "_Keyra forritsviðbót"
 
 #: bin/openerp.ui.h:896
 msgid "_Extension Manager"
-msgstr ""
+msgstr "_Viðbótastjórnun"
 
 #: bin/openerp.ui.h:897
 msgid "_File"
-msgstr ""
+msgstr "_Skrá"
 
 #: bin/openerp.ui.h:898
 msgid "_Forms"
-msgstr ""
+msgstr "_Eyðublöð"
 
 #: bin/openerp.ui.h:899
 msgid "_Go to resource ID..."
@@ -3103,31 +3744,31 @@ msgstr ""
 
 #: bin/openerp.ui.h:900
 msgid "_Help"
-msgstr ""
+msgstr "_Hjálp"
 
 #: bin/openerp.ui.h:901
 msgid "_Icons only"
-msgstr ""
+msgstr "E_inungis táknmyndir"
 
 #: bin/openerp.ui.h:902
 msgid "_License"
-msgstr ""
+msgstr "_Notkunarleyfi"
 
 #: bin/openerp.ui.h:903
 msgid "_Menu"
-msgstr ""
+msgstr "_Valmynd"
 
 #: bin/openerp.ui.h:904
 msgid "_Menubar"
-msgstr ""
+msgstr "_Valmyndarslá"
 
 #: bin/openerp.ui.h:905
 msgid "_Migrate Database(s)"
-msgstr ""
+msgstr "_Yfirfæra gagnagrunna"
 
 #: bin/openerp.ui.h:906
 msgid "_New"
-msgstr ""
+msgstr "_Nýtt"
 
 #: bin/openerp.ui.h:907
 msgid "_New Home Tab"
@@ -3135,83 +3776,83 @@ msgstr ""
 
 #: bin/openerp.ui.h:908
 msgid "_New database"
-msgstr ""
+msgstr "_Nýr gagnagrunnur"
 
 #: bin/openerp.ui.h:909
 msgid "_Nothing"
-msgstr ""
+msgstr "_Ekkert"
 
 #: bin/openerp.ui.h:910
 msgid "_Open"
-msgstr ""
+msgstr "_Opna"
 
 #: bin/openerp.ui.h:911
 msgid "_OpenERP"
-msgstr ""
+msgstr "_OpenERP"
 
 #: bin/openerp.ui.h:912
 msgid "_Options"
-msgstr ""
+msgstr "_Valkostir"
 
 #: bin/openerp.ui.h:913
 msgid "_Plugins"
-msgstr ""
+msgstr "_Viðbætur"
 
 #: bin/openerp.ui.h:914
 msgid "_Preferences"
-msgstr ""
+msgstr "_Stillingar"
 
 #: bin/openerp.ui.h:915
 msgid "_Preview in PDF"
-msgstr ""
+msgstr "Forskoða sem _PDF"
 
 #: bin/openerp.ui.h:916
 msgid "_Print"
-msgstr ""
+msgstr "_Prenta"
 
 #: bin/openerp.ui.h:917
 msgid "_Read my requests"
-msgstr ""
+msgstr "_Lesa beiðnirnar mínar"
 
 #: bin/openerp.ui.h:918
 msgid "_Remove"
-msgstr ""
+msgstr "_Fjarlægja"
 
 #: bin/openerp.ui.h:919
 msgid "_Restore database"
-msgstr ""
+msgstr "Endu_rheimta gagnagrunn"
 
 #: bin/openerp.ui.h:920
 msgid "_Save"
-msgstr ""
+msgstr "_Vista"
 
 #: bin/openerp.ui.h:921
 msgid "_Save options"
-msgstr ""
+msgstr "_Valkostir vistunar"
 
 #: bin/openerp.ui.h:922
 msgid "_Send a request"
-msgstr ""
+msgstr "_Senda beiðni"
 
 #: bin/openerp.ui.h:923
 msgid "_Shortcuts"
-msgstr ""
+msgstr "_Flýtilyklar"
 
 #: bin/openerp.ui.h:924
 msgid "_Text only"
-msgstr ""
+msgstr "Einungis _texti"
 
 #: bin/openerp.ui.h:925
 msgid "_User"
-msgstr ""
+msgstr "_Notandi"
 
 #: bin/openerp.ui.h:926
 msgid "_Waiting Requests"
-msgstr ""
+msgstr "_Beiðnir í bið"
 
 #: bin/openerp.ui.h:927
 msgid "_only for you"
-msgstr ""
+msgstr "að_eins fyrir þig"
 
 #: bin/openerp.ui.h:928
 msgid "admin"
@@ -3219,11 +3860,11 @@ msgstr ""
 
 #: bin/openerp.ui.h:929
 msgid "for _all users"
-msgstr ""
+msgstr "fyrir _alla notendur"
 
 #: bin/openerp.ui.h:930
 msgid "http://localhost:8069"
-msgstr ""
+msgstr "http://localhost:8069"
 
 #: bin/win_error.ui.h:1
 msgid ""
@@ -3236,7 +3877,7 @@ msgstr ""
 
 #: bin/win_error.ui.h:5
 msgid "<i>_Details</i>"
-msgstr ""
+msgstr "<i>_Nánar</i>"
 
 #: bin/win_error.ui.h:6
 msgid "<i>_Publisher Warranty</i>"
@@ -3252,15 +3893,15 @@ msgstr ""
 
 #: bin/win_error.ui.h:9
 msgid "Details"
-msgstr ""
+msgstr "Nánar"
 
 #: bin/win_error.ui.h:10
 msgid "Explain what you did:"
-msgstr ""
+msgstr "Útskýrðu hvað þú gerðir:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Samantekt um vandamál:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
@@ -3268,7 +3909,7 @@ msgstr ""
 
 #: bin/win_error.ui.h:14
 msgid "label"
-msgstr ""
+msgstr "skýring"
 
 #~ msgid ""
 #~ "Linux Automatic Printing not implemented.\n"
