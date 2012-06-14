@@ -41,7 +41,7 @@ class CanvasEvent(CanvasRectangle):
         self.append(self.text, hippo.PACK_EXPAND)
 
     def set_text(self, text, description = ''):
-        self.text.set_property('text', text + ', ' + description)
+        self.text.set_property('text', text + ', ' + description if text and description else text or description or '')
 
 
     def set_text_color(self, newcolor):
