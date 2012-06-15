@@ -242,7 +242,10 @@ class ViewCalendar(object):
                 # simply display new current day
                 return
             elif hippo_event.count >= 2: # double clic or more
-                self.screen.context.update({'default_' +self.date_start:self.date.strftime('%Y-%m-%d %H:%M:%S')})
+                val = self.date.strftime('%Y-%m-%d %H:%M:%S')
+                if self.fields[self.date_start]['type'] == 'date':
+                    val = self.date.strftime('%Y-%m-%d')
+                self.screen.context.update({'default_' +self.date_start:val})
                 self.screen.switch_view(mode='form')
                 self.screen.new()
 
