@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-03-05 09:10+0000\n"
-"Last-Translator: amani ali <applepie9911@yahoo.com>\n"
+"PO-Revision-Date: 2012-06-30 21:06+0000\n"
+"Last-Translator: almodhesh <Unknown>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 05:28+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-07-01 04:58+0000\n"
+"X-Generator: Launchpad (build 15520)\n"
 "Language: ar\n"
 
 #: bin/common/common.py:88
@@ -110,6 +110,24 @@ msgid ""
 "You can use the link bellow for more information. The detail of the error\n"
 "is displayed on the second tab.\n"
 msgstr ""
+"\n"
+"<b>حدث خطأ غير معروف.</b>\n"
+"<b>ليس لديك عقد ضمان صالح من الناشر</b>\n"
+"إذا كنت تستخدم البرنامج لأغراض ألإنتاج ينصح بتسجيل \n"
+"عقد ضمان من الناشر\n"
+"\n"
+"عقد الضمان يضمن لك معالجة للأخطاء مع \n"
+"نظام تلقائي للترقية يتيح لنا معالجة الأخطاء خلال ساعات.\n"
+"\n"
+"نظام عقد الضمان من الناشر يتيح لك:\n"
+"* ترفية تلقائية للإصدارات الجديدة,\n"
+"* ضمان إصلاح الأخطاء البرمجية,\n"
+"* نشرة شهرية تبين الأخطاء البرمجية المحتملة و إصلاحاتها,\n"
+"* تنبيهات أمنية عن طريق البريد الإلكتروني و الترقية التلقائية,\n"
+"* الدخول لبوابة العملاء.\n"
+"\n"
+"يمكنك استخدام الرابط أدناه للحصول على معلومات إضافية. تفاصيل الخطأ\n"
+" موضحة في الصفحة الثانية.\n"
 
 #: bin/common/common.py:459
 #, python-format
@@ -936,7 +954,7 @@ msgstr "لا يوجد شئ للطباعة!"
 
 #: bin/modules/action/main.py:66
 msgid "Printing aborted, too long delay !"
-msgstr "الطباعة توقفت. للتأخر الطويل جداَ !"
+msgstr "الطباعة توقفت. التأخير طويل جدا."
 
 #: bin/modules/action/main.py:204
 msgid "Select your action"
@@ -1190,7 +1208,7 @@ msgstr "كلمة مرور غير مقبولة !"
 
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "فشل في تغيل الباسورد، رجاء تحقق من الباسورد القديم"
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
