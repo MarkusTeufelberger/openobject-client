@@ -56,7 +56,9 @@ class spinint(interface.widget_interface):
                 new_spin_value = user_locale_format.format('%.' + str(digits) + 'f', spin_value)
             except:
                 self.widget.set_text(text)
-                self.widget.stop_emission('insert-text')
+                #allow entering -ve sign
+                if new_text != '-':
+                    self.widget.stop_emission('insert-text')
                 self.widget.show()
         return
     
