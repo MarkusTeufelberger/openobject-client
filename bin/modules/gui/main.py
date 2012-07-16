@@ -1387,6 +1387,11 @@ class terp_main(service.Service):
         url, db_name, passwd = self._choose_db_ent()
         if db_name:
             try:
+                id = rpc.session.db_exec(url, 'list', True)
+                if db_name in id:
+                    common.warning(_("Could not create database."),
+                                    _('Database already exists !'), parent=self.window)
+                    return
                 f = file(filename, 'rb')
                 data_b64 = base64.encodestring(f.read())
                 f.close()
@@ -1578,15 +1583,26 @@ class terp_main(service.Service):
         change_button.connect_after('clicked', lambda a,b: _server_ask(b, win),
                 widget_url)
 
-        res = win.run()
-
         db = False
         passwd = False
         url = False
-        if res == gtk.RESPONSE_OK:
+
+        while True:
+            res = win.run()
             db = db_widget.get_text()
             url = widget_url.get_text()
             passwd = widget_pass.get_text()
+            if (res in (gtk.RESPONSE_CANCEL, gtk.RESPONSE_DELETE_EVENT)):
+                self.window.present()
+                win.destroy()
+                return False, False, False
+            if (res == gtk.RESPONSE_OK) and (db in RESERVED_KEYWORDS):
+                common.warning(_("Sorry,'" + db + "' cannot be the name of the database,it's a Reserved Keyword."), _('Bad database name !'), parent=win)
+                continue
+            if (res == gtk.RESPONSE_OK) and ((not db) or (not re.match('^[a-zA-Z0-9][a-zA-Z0-9_]+$', db))):
+                common.warning(_('The database name must contain only normal characters or "_".\nYou must avoid all accents, space or special characters.'), _('Bad database name !'), parent=win)
+            else:
+                break
         self.window.present()
         win.destroy()
         return url, db, passwd
