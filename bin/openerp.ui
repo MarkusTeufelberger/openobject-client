@@ -5141,7 +5141,7 @@ Note that we may not reply if you do not have a support contract with Tiny or an
                                 <property name="column_spacing">8</property>
                                 <property name="row_spacing">9</property>
                                 <child>
-                                  <object class="GtkComboBoxEntry" id="import_csv_combo">
+                                  <object class="GtkComboBox" id="import_csv_combo">
                                     <property name="visible">True</property>
                                     <property name="model">liststore6</property>
                                     <child>

@@ -99,6 +99,8 @@ class win_import(object):
         self.ui.get_object('import_vp_right').add(self.view2)
         self.view1.set_headers_visible(False)
         self.view2.set_headers_visible(False)
+        self.encoding = self.ui.get_object('import_csv_combo')
+        self.encoding.set_active(0)
 
         cell = gtk.CellRendererText()
         column = gtk.TreeViewColumn(_('Field name'), cell, text=0, background=2)
