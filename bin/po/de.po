@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: openerp-client-de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2012-07-18 08:20+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: Deutsch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-29 05:28+0000\n"
-"X-Generator: Launchpad (build 14874)\n"
+"X-Launchpad-Export-Date: 2012-07-19 05:02+0000\n"
+"X-Generator: Launchpad (build 15637)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -68,20 +68,13 @@ msgstr "OpenERP Berechnen"
 msgid "Operation in progress"
 msgstr "Vorgang läuft .."
 
-#
-# File: bin/modules/action/wizard.py, line: 147
-# File: bin/modules/gui/main.py, line: 340
-# File: bin/modules/action/wizard.py, line: 147
-# File: bin/modules/gui/main.py, line: 340
-# File: bin/modules/action/wizard.py, line: 147
-# File: bin/modules/gui/main.py, line: 340
 #: bin/common/common.py:190
 msgid ""
 "Please wait,\n"
 "this operation may take a while..."
 msgstr ""
 "Bitte warten,\n"
-"diese Operation kann eine Weile in Anspruch nehmen..."
+"dieser Vorgang kann eine Weile in Anspruch nehmen..."
 
 #: bin/common/common.py:224
 #, python-format
@@ -138,7 +131,7 @@ msgstr ""
 "\n"
 "<b>Sie haben keinen gültigen Wartungsvertrag !</b>\n"
 "\n"
-"Wenn Sie OpenERP in einer Produktionsumgebung verwenden raten wir Ihnen "
+"Wenn Sie OpenERP in einer Produktionsumgebung verwenden, empfehlen wir Ihnen "
 "dringend einen Wartungsvertrag abzuschliesen.\n"
 "\n"
 "Der OpenERP Wartungsvertrag bieten Ihnen Fehlerbehebung in wenigen Stunden "
@@ -147,14 +140,14 @@ msgstr ""
 "\n"
 "Der Wartungsvertrag des Editors bietet:\n"
 "* Automatische Migration zu neuen Versionen\n"
-"* Fehebehebung\n"
+"* Fehlerbehebung\n"
 "* monatliche Meldung von Fehlern und deren Behebung\n"
 "* automatische Sicherheitsmeldungen\n"
 "* Zugang zum Kundenportal.\n"
 "\n"
 "Mehr information erhalten Sie im Link weiter unten.\n"
 "\n"
-"Fehlerdetails finden Sie am 2. Reiter.\n"
+"Fehlerdetails finden Sie unter dem 2. Reiter.\n"
 
 #: bin/common/common.py:459
 #, python-format
@@ -189,7 +182,7 @@ msgstr ""
 "OpenERP in einem Produktionssystem verwenden sollten Sie Ihren "
 "Wartungsvertrag erweitern.\n"
 "\n"
-"Wenn Sie eigene oder fremde Module verwenden können wir dafür "
+"Wenn Sie eigene oder fremde Module verwenden, können wir dafür "
 "kostenpflichtig zusätzliche Wartungsverpflichtungen für diese Module "
 "übernehmen. Unser Qualitätssicherungsteam wird diese Module prüfen und "
 "sicherstellen, dass diese Module zukünftig für alle stabilen Versionen von "
@@ -199,16 +192,16 @@ msgstr ""
 "gedeckt sind.\n"
 "%s\n"
 "\n"
-"Mehr Information erhalten Sie im Link unterhalb.\n"
+"Mehr Information erhalten Sie über den Link weiter unten.\n"
 "\n"
-"Details zu dem fehler sind auf dem 2. Reiter zu finden."
+"Details zu dem Fehler sind unter dem 2. Reiter zu finden."
 
 #: bin/common/common.py:536
 msgid ""
 "Your problem has been sent to the quality team !\n"
 "We will recontact you after analysing the problem."
 msgstr ""
-"Ihr Problem wurde an das Qualitätssciherungs Team geschickt!\n"
+"Ihr Problem wurde an das Team für Qualitätssicherung geschickt!\n"
 "Wir werden Sie nach der Analyse kontaktieren."
 
 #: bin/common/common.py:539
@@ -228,13 +221,9 @@ msgstr ""
 msgid "Error"
 msgstr "Fehler"
 
-#
-# File: bin/common/common.py, line: 499
-# File: bin/common/common.py, line: 499
-# File: bin/common/common.py, line: 499
 #: bin/common/common.py:695
 msgid "Open with..."
-msgstr "Öffnen mit"
+msgstr "Öffnen mit..."
 
 #
 # File: bin/modules/action/wizard.py, line: 171
@@ -263,13 +252,9 @@ msgstr ""
 "Kann den OpenERP Server nicht erreichen!\n"
 "Bitte prüfen Sie Ihre Netzwerkverbindung und den OpenERP Server"
 
-#
-# File: bin/rpc.py, line: 142
-# File: bin/rpc.py, line: 142
-# File: bin/rpc.py, line: 142
 #: bin/rpc.py:188
 msgid "Connection Error"
-msgstr "Verbindung abgelehnt!"
+msgstr "Verbindungsfehler"
 
 #
 # File: bin/modules/action/wizard.py, line: 183
@@ -311,25 +296,6 @@ msgstr "Zeige Details"
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Kann lokale %(lang_enc)s: %(exception)s nicht setzen."
 
-#
-# File: bin/widget_search/checkbox.py, line: 55
-# File: bin/widget_search/spinbutton.py, line: 69
-# File: bin/widget_search/spinint.py, line: 73
-# File: bin/widget_search/calendar.py, line: 106
-# File: bin/widget_search/char.py, line: 47
-# File: bin/widget_search/reference.py, line: 74
-# File: bin/widget_search/checkbox.py, line: 55
-# File: bin/widget_search/spinbutton.py, line: 69
-# File: bin/widget_search/spinint.py, line: 73
-# File: bin/widget_search/calendar.py, line: 106
-# File: bin/widget_search/char.py, line: 47
-# File: bin/widget_search/reference.py, line: 74
-# File: bin/widget_search/checkbox.py, line: 55
-# File: bin/widget_search/spinbutton.py, line: 69
-# File: bin/widget_search/spinint.py, line: 73
-# File: bin/widget_search/calendar.py, line: 106
-# File: bin/widget_search/char.py, line: 47
-# File: bin/widget_search/reference.py, line: 74
 #: bin/widget_search/reference.py:77 bin/widget_search/spinbutton.py:92
 #: bin/widget_search/custom_filter.py:141 bin/widget_search/filter.py:79
 #: bin/widget_search/char.py:72 bin/widget_search/spinint.py:94
@@ -337,7 +303,7 @@ msgstr "Kann lokale %(lang_enc)s: %(exception)s nicht setzen."
 #: bin/widget_search/checkbox.py:68 bin/widget_search/selection.py:116
 #: bin/widget/view/form_gtk/button.py:47
 msgid "The content of the widget or ValueError if not valid"
-msgstr "Der Inhalt des Miniprogramms oder Wertfehler, wenn nicht gültig"
+msgstr "Der Inhalt des Miniprogramms oder Fehler-Wert, wenn nicht gültig"
 
 #: bin/widget_search/date_widget.py:65
 #: bin/widget/view/form_gtk/date_widget.py:65
@@ -366,11 +332,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "UND"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "ODER"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
@@ -378,7 +344,7 @@ msgstr "Fehler: "
 
 #: bin/widget_search/form.py:500
 msgid "The content of the form or exception if not valid"
-msgstr "Der Inhalt der Form oder die Ausnahme ist ungültig"
+msgstr "Der Inhalt der Sicht oder Ausnahmebehandlung im Fehlerfall"
 
 #
 # File: bin/widget_search/calendar.py, line: 51
@@ -478,7 +444,7 @@ msgstr "Nein"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "ist"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -492,7 +458,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "ist nicht"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -508,7 +474,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "ist leer"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -524,7 +490,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "ist nicht leer"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -545,7 +511,7 @@ msgstr "Suchen eines Datensatzes"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Gleicht"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -558,7 +524,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "zwischen"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -571,7 +537,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "ohne den Bereich"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -596,12 +562,12 @@ msgstr "ist kleiner als"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "grösser oder gleich"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "kleiner gleich"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -686,7 +652,7 @@ msgstr "Kann keinen Graph erzeugen"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Nicht festgelegt"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -695,7 +661,7 @@ msgstr "Dieser Typ (%s) wird von der GTK Anwendung nicht unterstützt."
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "Problem mit der Sicht"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -715,7 +681,7 @@ msgstr ""
 
 #: bin/widget/view/diagram_gtk/xdot.py:1429
 msgid "Dot Viewer"
-msgstr ""
+msgstr "Betrachter für Dot-Graphen"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1719
 msgid "Add New Node"
@@ -723,7 +689,7 @@ msgstr "Neuen Knoten hinzufügen"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1720
 msgid "Add New Edge"
-msgstr ""
+msgstr "Neue Kante hinzufügen"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1721
 msgid "Enlarge the Diagram"
@@ -767,7 +733,7 @@ msgstr "aktuelle %s bearbeiten"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1882
 msgid " - Dot Viewer"
-msgstr ""
+msgstr " - Betrachter für Dot-Graphen"
 
 #: bin/widget/view/list.py:585 bin/widget/view/list.py:586
 #: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
@@ -933,19 +899,19 @@ msgstr "Filter verwalten"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Unbegrenzt"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -1004,6 +970,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Korrigiere folgende rot markierte Felder!\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -1045,7 +1014,7 @@ msgstr "Ansicht der Übersetzung"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Eine e-Mail mit dem Standard e-Mail-Programm senden"
 
 #
 # File: bin/modules/gui/main.py, line: 1049
@@ -1312,7 +1281,7 @@ msgstr "Warnung"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "Bilddatei beschädigt"
 
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 48
@@ -1328,7 +1297,7 @@ msgstr "Sie können hier nicht auf den Vorgabewert zurücksetzen!"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "Operation nicht erlaubt!"
 
 #
 # File: bin/modules/action/main.py, line: 46
@@ -1743,7 +1712,7 @@ msgstr "Kann Datebank nicht wiederherstellen."
 
 #: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "<b>Passwort ändern</b>"
 
 #: bin/modules/gui/main.py:1450
 msgid ""
@@ -1769,7 +1738,7 @@ msgstr "Falsches Kennwort eingegeben!"
 
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "Passwort ändern gescheitert, bitte altes Passwort bestätigen."
 
 #
 # File: bin/modules/gui/main.py, line: 1117
@@ -1858,7 +1827,7 @@ msgstr "Feld Name"
 #: bin/modules/gui/window/win_import.py:143
 #: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
-msgstr ""
+msgstr "Datenbank ID"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
@@ -1966,7 +1935,7 @@ msgstr "Fehler beim Öffnen einer Exceldatei!"
 #: bin/modules/gui/window/win_export.py:141
 #: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
-msgstr ""
+msgstr "Feldname"
 
 #
 # File: bin/modules/gui/window/form.py, line: 215
@@ -1990,7 +1959,7 @@ msgstr "Export Fehler!"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "In Excel öffnen"
 
 #
 # File: bin/modules/gui/window/tree.py, line: 190
@@ -2263,10 +2232,12 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Fehler beim Drucken aufgetreten:\n"
+"%s"
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Drucke Bericht"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -3380,7 +3351,7 @@ msgstr ""
 
 #: bin/openerp.ui.h:713
 msgid "Add Field Names"
-msgstr ""
+msgstr "Feldbezeichner hinzufügen"
 
 #
 # File: bin/openerp.glade, line: 7299
@@ -3877,7 +3848,7 @@ msgstr "Tastaturbefehle"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #
 # File: bin/openerp.glade, line: 1355
@@ -3913,7 +3884,7 @@ msgstr "wichtige Lesezeichen"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Mittel"
 
 #
 # File: bin/openerp.glade, line: 1384
@@ -4023,7 +3994,7 @@ msgstr "Nächster Datensatz"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Nicht Eilig"
 
 #
 # File: bin/openerp.glade, line: 9469
@@ -4344,7 +4315,7 @@ msgstr "Speichern und Fenster schliessen"
 
 #: bin/openerp.ui.h:851
 msgid "Save as CSV"
-msgstr ""
+msgstr "Als CSV speichern"
 
 #
 # File: bin/openerp.glade, line: 5386
@@ -4494,11 +4465,11 @@ msgstr "Oben"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Dringend"
 
 #
 # File: bin/openerp.glade, line: 1109
@@ -4526,7 +4497,7 @@ msgstr "Senkrecht"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Sehr Dringend"
 
 #
 # File: bin/openerp.glade, line: 711
@@ -4920,6 +4891,12 @@ msgid ""
 "you shortly.\n"
 "</i>"
 msgstr ""
+"<b>Gewährleistungsvertrag des Verlegers.</b>\n"
+"<i>\n"
+"Ihr Antrag wird an OpenERP gesandt und das Gewährleistungs-Team des Verlags "
+"wird\n"
+"in Kürze antworten.\n"
+"</i>"
 
 #: bin/win_error.ui.h:5
 msgid "<i>_Details</i>"
@@ -4954,7 +4931,7 @@ msgstr "Beschreiben Sie, was Sie gemacht haben"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Zusammenfassung der Probleme:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
