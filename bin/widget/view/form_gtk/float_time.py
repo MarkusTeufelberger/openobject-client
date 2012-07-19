@@ -28,7 +28,7 @@ import locale
 
 import common
 import interface
-from tools import datetime_util
+from tools import user_locale_format, datetime_util
 
 class float_time(interface.widget_interface):
     def __init__(self, window, parent, model, attrs={}, label=None):
@@ -50,7 +50,7 @@ class float_time(interface.widget_interface):
             if text and ':' in text:
                 return round(int(text.split(':')[0]) + int(text.split(':')[1]) / 60.0,4)
             else:
-                return locale.atof(text)
+                return user_locale_format.str2float(text)
         except:
             pass
         return 0.0
