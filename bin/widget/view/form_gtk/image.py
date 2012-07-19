@@ -114,6 +114,7 @@ class image_wid(interface.widget_interface):
         if filename:
             self._value = encodestring(file(filename, 'rb').read())
             self.update_img()
+            self.set_value(self._view.model, self._view.model.mgroup.mfields[self.attrs['name']])
             if self.has_filename and self.has_filename in self._view.model.mgroup.mfields:
                 self._view.model.set({self.has_filename: os.path.basename(filename)}, modified=True)
                 
