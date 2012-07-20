@@ -440,13 +440,14 @@ class ViewCalendar(object):
 
             if isinstance(s, (tuple, list)): s = s[-1]
 
-            caption = ustr(s)
-
+            if not (isinstance(s,bool) or self.fields[f]['type'] == 'boolean'):
+                caption = ustr(s)
+                
             for f in self.axis[1:]:
                 s = event[f]
                 if isinstance(s, (tuple, list)): s = s[-1]
-
-                description += [ustr(s)]
+                if not (isinstance(s, bool) or self.fields[f]['type'] == 'boolean'):
+                    description += [ustr(s)]
 
         starts = event.get(self.date_start)
         ends = event.get(self.date_delay) or 1.0
