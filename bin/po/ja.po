@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-04-18 02:14+0000\n"
-"Last-Translator: Masaki Yamaya <Unknown>\n"
+"PO-Revision-Date: 2012-07-19 05:46+0000\n"
+"Last-Translator: Akira Hiyama <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-05-26 05:05+0000\n"
-"X-Generator: Launchpad (build 15288)\n"
+"X-Launchpad-Export-Date: 2012-07-20 04:37+0000\n"
+"X-Generator: Launchpad (build 15644)\n"
 "Language: ja\n"
 
 #: bin/common/common.py:88
@@ -73,10 +73,7 @@ msgstr "ファイル %s が正しいことを確認して下さい。"
 
 #: bin/common/common.py:410
 msgid " has reported the following bug:\n"
-msgstr ""
-" 次のバグが報告されました：\n"
-"リンク切れを意味します。翻訳で同等の位置に新しいラインを開始して下さい。\n"
-"スペース（空白）を意味します。翻訳で同等の位置にスペースを入力して下さい。\n"
+msgstr " 次のバグが報告されました：\n"
 
 #: bin/common/common.py:410
 msgid "remarks"
@@ -2660,7 +2657,7 @@ msgstr "このリソースの編集/保存"
 
 #: bin/openerp.ui.h:751
 msgid "Edition Widgets"
-msgstr "ウィッジット編集"
+msgstr "ウィジェット編集"
 
 #: bin/openerp.ui.h:752
 msgid "Emergency:"
