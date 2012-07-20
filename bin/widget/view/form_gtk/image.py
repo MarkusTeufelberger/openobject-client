@@ -186,6 +186,7 @@ class image_wid(interface.widget_interface):
             loader = gtk.gdk.PixbufLoader(type)
             try:
                 loader.write(data, len(data))
+                loader.close()
             except:
                 continue
             pixbuf = loader.get_pixbuf()
@@ -194,9 +195,8 @@ class image_wid(interface.widget_interface):
         if not pixbuf:
             loader = gtk.gdk.PixbufLoader('png')
             loader.write(NOIMAGE, len(NOIMAGE))
+            loader.close()
             pixbuf = loader.get_pixbuf()
-
-        loader.close()
 
         img_height = pixbuf.get_height()
         if img_height > self.height:
