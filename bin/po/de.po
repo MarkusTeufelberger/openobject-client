@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: openerp-client-de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-07-18 08:20+0000\n"
+"PO-Revision-Date: 2012-07-22 11:20+0000\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: Deutsch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-07-19 05:02+0000\n"
-"X-Generator: Launchpad (build 15637)\n"
+"X-Launchpad-Export-Date: 2012-07-23 05:31+0000\n"
+"X-Generator: Launchpad (build 15654)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -83,7 +83,7 @@ msgstr "Überprüfen Sie bitte ob %s korrekt ist."
 
 #: bin/common/common.py:410
 msgid " has reported the following bug:\n"
-msgstr " hat folgenden Fehler berichtet:\n"
+msgstr " hat folgenden Fehler gemeldet:\n"
 
 #: bin/common/common.py:410
 msgid "remarks"
@@ -319,16 +319,16 @@ msgid ""
 "clear the field."
 msgstr ""
 "Spezielle Funktionen sind verfügbar: +, - or =.\n"
-"Plus/minus erhöht/verringert das ausgewählte Datum. \n"
-"Ist Gleich setzt einen Teil des ausgewählten Datums\n"
+"'+'/'-' erhöht/vermindert das ausgewählte Datum. \n"
+"'=' setzt einen Teil des ausgewählten Datums\n"
 "Verfügbare Variablen: 12h = 12 Stunden, 8d = 8 Tage, 4w = 4 Wochen, 1m = 1 "
 "Monat, 2y = 2 Jahre. \n"
 "Einige Beispiele:\n"
-"* +21d : addiert 21 Tage zum ausgewählten Jahr\n"
-"* =23w : setzt das Datum auf die 23. Woche des Jahres\n"
-"* -4m : vermindert das laufende Datum um 4 Monate\n"
-"\"=\" setzt das aktuelle Datum/Zeit \n"
-"'-' löscht das Feld."
+"* +21d : 21 Tage zum ausgewählten Datum hinzufügen\n"
+"* =23w : Setzt das Datum auf den ersten Tag der 23. Kalenderwoche\n"
+"* -4m : Vermindert das laufende Datum um 4 Monate\n"
+"'=' setzt das aktuelle Datum/Zeit \n"
+"'-' löscht den Feldinhalt."
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
@@ -406,11 +406,11 @@ msgstr "Minute:"
 
 #: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
-msgstr "Ungültiger Datums- oder Zeitwert. Das Jahr muß größer als 1899 sein!"
+msgstr "Ungültiger Datums-/Zeitwert. Das Jahr muß nach 1899 liegen!"
 
 #: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
-msgstr "Der Inhalt eines Anzeigeelements oder einer Ausnahme im Fehlerfall"
+msgstr "Der Inhalt des Miniprogramms oder Ausnahmebehandlung im Fehlerfall"
 
 #
 # File: bin/widget_search/checkbox.py, line: 36
