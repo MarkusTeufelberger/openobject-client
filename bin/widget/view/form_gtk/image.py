@@ -114,6 +114,7 @@ class image_wid(interface.widget_interface):
         if filename:
             self._value = encodestring(file(filename, 'rb').read())
             self.update_img()
+            self.set_value(self._view.model, self._view.model.mgroup.mfields[self.attrs['name']])
             if self.has_filename and self.has_filename in self._view.model.mgroup.mfields:
                 self._view.model.set({self.has_filename: os.path.basename(filename)}, modified=True)
                 
@@ -185,6 +186,7 @@ class image_wid(interface.widget_interface):
             loader = gtk.gdk.PixbufLoader(type)
             try:
                 loader.write(data, len(data))
+                loader.close()
             except:
                 continue
             pixbuf = loader.get_pixbuf()
@@ -193,9 +195,8 @@ class image_wid(interface.widget_interface):
         if not pixbuf:
             loader = gtk.gdk.PixbufLoader('png')
             loader.write(NOIMAGE, len(NOIMAGE))
+            loader.close()
             pixbuf = loader.get_pixbuf()
-
-        loader.close()
 
         img_height = pixbuf.get_height()
         if img_height > self.height:

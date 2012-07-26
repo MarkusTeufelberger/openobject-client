@@ -113,7 +113,7 @@ You can also use "=" to set the date to the current date/time and '-' to clear t
         text = self.get_text()  
         current_pos = self.get_position()
         
-        if(length + current_pos > len(text)):
+        if(length + current_pos > len(text)) and text != self.initial_value:
             return
         
         pos = (current_pos < 10  or text != self.initial_value) and current_pos or 0

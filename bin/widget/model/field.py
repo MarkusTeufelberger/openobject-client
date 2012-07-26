@@ -62,7 +62,7 @@ class CharField(object):
         if self.get_state_attrs(model).get('readonly', False):
             return
         if self.attrs.get('on_change',False):
-            model.on_change(self.attrs['on_change'])
+            model.on_change(self.attrs['on_change'], field = self)
         if self.attrs.get('change_default', False):
             model.cond_default(self.attrs['name'], self.get(model))
 
@@ -122,7 +122,7 @@ class CharField(object):
         res = self.set(model, value)
         model.cond_default(self.attrs['name'], self.get(model))
         if self.attrs.get('on_change',False):
-            model.on_change(self.attrs['on_change'])
+            model.on_change(self.attrs['on_change'], field=self)
         return res
 
     def get_default(self, model):
@@ -159,15 +159,13 @@ class CharField(object):
         ro = model.mgroup._readonly
         state_changes = dict(self.attrs.get('states',{}).get(state,[]))
         if 'readonly' in state_changes:
-            self.get_state_attrs(model)['readonly'] = state_changes.get('readonly', False)
+            self.get_state_attrs(model)['readonly'] = state_changes.get('readonly', False) or ro
         else:
-            if self.attrs.get('readonly', False) or  ro:
-                self.get_state_attrs(model)['readonly'] = True
+            self.get_state_attrs(model)['readonly'] = self.attrs.get('readonly', False) or ro
         if 'required' in state_changes:
             self.get_state_attrs(model)['required'] = state_changes.get('required', False)
         else:
-            if self.attrs.get('required', False):
-                self.get_state_attrs(model)['required'] = self.attrs['required']
+            self.get_state_attrs(model)['required'] = self.attrs.get('required', False)
         if 'value' in state_changes:
             self.set(model, state_changes['value'], modified=True)
 
