@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-05-26 05:05+0000\n"
-"X-Generator: Launchpad (build 15288)\n"
+"X-Launchpad-Export-Date: 2012-08-03 05:46+0000\n"
+"X-Generator: Launchpad (build 15734)\n"
 "Language: is\n"
 
 #: bin/common/common.py:88
@@ -73,7 +73,7 @@ msgstr ""
 
 #: bin/common/common.py:410
 msgid "remarks"
-msgstr ""
+msgstr "athugasemdir"
 
 #: bin/common/common.py:413
 msgid "Support request sent !"
@@ -153,15 +153,15 @@ msgstr "Villa"
 
 #: bin/common/common.py:695
 msgid "Open with..."
-msgstr ""
+msgstr "Opna með..."
 
 #: bin/rpc.py:157 bin/modules/action/wizard.py:149 bin/modules/gui/main.py:187
 msgid "Connection refused !"
-msgstr ""
+msgstr "Tengingu hafnað!"
 
 #: bin/rpc.py:158
 msgid "Connection refused!"
-msgstr ""
+msgstr "Tengingu hafnað!"
 
 #: bin/rpc.py:188
 msgid ""
@@ -177,11 +177,11 @@ msgstr "Villa í tengingu"
 #: bin/modules/action/wizard.py:167 bin/modules/action/wizard.py:169
 #: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
 msgid "Application Error"
-msgstr ""
+msgstr "Villa í forriti"
 
 #: bin/rpc.py:205 bin/modules/action/wizard.py:169
 msgid "View details"
-msgstr ""
+msgstr "Sjá nánar"
 
 #: bin/translate.py:185
 #, python-format

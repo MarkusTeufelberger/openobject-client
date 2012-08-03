@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-05-26 05:05+0000\n"
-"X-Generator: Launchpad (build 15288)\n"
+"X-Launchpad-Export-Date: 2012-08-03 05:46+0000\n"
+"X-Generator: Launchpad (build 15734)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -33,12 +33,12 @@ msgid ""
 msgstr ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
 "Isto oculta o consello actual. Aparecerá de novo a próxima vez que abra este "
-"elemento do menú, a menos que desactive os consellos usando a opción "
-"<b>'Menu Consellos'</b> nas preferencias do usuario."
+"elemento do menú, agás que desactive os consellos usando a opción <b>'Menu "
+"Consellos'</b> nas preferencias do usuario."
 
 #: bin/common/common.py:99
 msgid "Disable all tips"
-msgstr "Desactivar todos os consellos"
+msgstr "Desactivar tódolos consellos"
 
 #: bin/common/common.py:100
 msgid ""
@@ -116,7 +116,7 @@ msgid ""
 "is displayed on the second tab.\n"
 msgstr ""
 "\n"
-"<b>Un erro descoñecido foi informado. </b>\n"
+"<b>Reportouse un erro descoñecido. </b>\n"
 "\n"
 "<b>Non ten un contrato de garantía de editor de OpenERP válido</b>\n"
 "Se está usando OpenERP en produción, é moi recomendable rexistrar\n"
@@ -167,7 +167,7 @@ msgid ""
 "is displayed on the second tab."
 msgstr ""
 "\n"
-"<b>Un erro descoñecido foi reportado</b>\n"
+"<b>Reportouse un erro descoñecido.</b>\n"
 "\n"
 "¡O seu contrato de garantía do editor non cobre tódolos módulos instalados "
 "no seu sistema!\n"
@@ -195,7 +195,7 @@ msgid ""
 "Your problem has been sent to the quality team !\n"
 "We will recontact you after analysing the problem."
 msgstr ""
-"O seu problema foi enviado ao equipo de calidade!\n"
+"Enviouse o seu problema ao equipo de calidade!\n"
 "Contactaremos con vostede despois de analizar o problema."
 
 #: bin/common/common.py:539
@@ -288,11 +288,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "E"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "OU"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
@@ -360,7 +360,7 @@ msgstr "Non"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "é"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -374,7 +374,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "non é"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -390,7 +390,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "está baleiro"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -406,7 +406,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "non está baleiro"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -427,7 +427,7 @@ msgstr "Buscar un recurso"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Iguais"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -440,7 +440,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "entre"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -453,7 +453,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "excluindo o rango"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -478,12 +478,12 @@ msgstr "menor que"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "maior que igual a"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "menor que igual a"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -548,7 +548,7 @@ msgstr "Non se pode xerar o gráfico!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Non definido"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -557,7 +557,7 @@ msgstr "Este tipo (%s) non é compatíbel co cliente GTK!"
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "¡Error de vista!"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -738,19 +738,19 @@ msgstr "Xestionar os filtros"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Ilimitado"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -783,6 +783,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"¡Corrixa os seguintes campos en vermello!\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -813,7 +816,7 @@ msgstr "Vista de tradución"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Envíe un correo electrónico co seu cliente de correo predefinido"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -978,7 +981,7 @@ msgstr "Aviso"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "Imaxe corrupta"
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
@@ -990,7 +993,7 @@ msgstr "¡Non se pode definir o valor por defecto aquí !"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "¡Operación non permitida!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -1257,6 +1260,7 @@ msgstr "Contrasinal incorrecto!"
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
 msgstr ""
+"Erro no cambio de contrasinal, por favor verifique o contrasinal antiguo."
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -1323,7 +1327,7 @@ msgstr "Nome de campo"
 #: bin/modules/gui/window/win_import.py:143
 #: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
-msgstr ""
+msgstr "ID da Base de datos"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
@@ -1421,7 +1425,7 @@ msgstr "¡Erro de Exportación!"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "Abrir en Excel"
 
 #: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
@@ -1602,10 +1606,12 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Ocurriu un erro na impresión:\n"
+"%s"
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Imprimir informe"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -2848,7 +2854,7 @@ msgstr "Atallos de teclado"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
@@ -2872,7 +2878,7 @@ msgstr "Atallos principais"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Mediano"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -2928,7 +2934,7 @@ msgstr "Rexistro seguinte"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Non urxente"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
@@ -3216,11 +3222,11 @@ msgstr "Superior"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Urxente"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3236,7 +3242,7 @@ msgstr "Vertical"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Moi urxente"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
@@ -3484,7 +3490,7 @@ msgstr "Explique o que fixo:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Resumo de problemas:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
