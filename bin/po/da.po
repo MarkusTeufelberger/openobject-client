@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-29 05:28+0000\n"
-"X-Generator: Launchpad (build 14874)\n"
+"X-Launchpad-Export-Date: 2012-08-03 06:21+0000\n"
+"X-Generator: Launchpad (build 15734)\n"
 "Language: da\n"
 
 #: bin/common/common.py:88
@@ -790,7 +790,7 @@ msgstr "Oversæt view"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr "Send en e-mail med din  standard e-mail client"
+msgstr "Send en e-mail med din standard e-mail-klient"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -1159,8 +1159,9 @@ msgid ""
 "Ask the administrator to verify\n"
 "you have an action defined for your user."
 msgstr ""
-"Du kan ikke logge ind i systemet! Bede administratoren om at kontrollere at "
-"du har en handling er defineret for din bruger."
+"Du kan ikke logge ind i systemet! \n"
+"Bed administratoren om at kontrollere \n"
+"at du har en handling defineret for din bruger."
 
 #: bin/modules/gui/main.py:1181 bin/modules/gui/main.py:1188
 msgid "Do you really want to quit ?"
@@ -1219,7 +1220,7 @@ msgstr "Valideringsfejl."
 
 #: bin/modules/gui/main.py:1469
 msgid "Could not change the Super Admin password."
-msgstr "Kunne ikke ændre Super Admin password."
+msgstr "Kunne ikke ændre adgangskoden for super-admininistrator."
 
 #: bin/modules/gui/main.py:1470 bin/modules/gui/main.py:1476
 msgid "Bad password provided !"

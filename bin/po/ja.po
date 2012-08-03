@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-29 05:28+0000\n"
-"X-Generator: Launchpad (build 14874)\n"
+"X-Launchpad-Export-Date: 2012-08-03 06:22+0000\n"
+"X-Generator: Launchpad (build 15734)\n"
 "Language: ja\n"
 
 #: bin/common/common.py:88
@@ -73,10 +73,7 @@ msgstr "ファイル %s が正しいことを確認して下さい。"
 
 #: bin/common/common.py:410
 msgid " has reported the following bug:\n"
-msgstr ""
-" 次のバグが報告されました：\n"
-"リンク切れを意味します。翻訳で同等の位置に新しいラインを開始して下さい。\n"
-"スペース（空白）を意味します。翻訳で同等の位置にスペースを入力して下さい。\n"
+msgstr " 次のバグが報告されました：\n"
 
 #: bin/common/common.py:410
 msgid "remarks"
@@ -179,6 +176,9 @@ msgid ""
 "Please report this error manually at:\n"
 "\t%s"
 msgstr ""
+"この問題は、品質チームに送ることができませんでした\n"
+"このエラーを次のように手作業で報告してください:\n"
+"\t%s"
 
 #: bin/common/common.py:539
 msgid "Error"
@@ -221,7 +221,7 @@ msgstr "詳細を見る"
 #: bin/translate.py:185
 #, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
-msgstr ""
+msgstr "%(lang_enc)s: %(exception)s を設定することができません。"
 
 #: bin/widget_search/reference.py:77 bin/widget_search/spinbutton.py:92
 #: bin/widget_search/custom_filter.py:141 bin/widget_search/filter.py:79
@@ -252,11 +252,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "かつ"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "または"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
@@ -324,7 +324,7 @@ msgstr "いいえ"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "が次である"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -338,7 +338,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "は次ではない"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -354,7 +354,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "は空白です。"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -370,7 +370,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "空白ではありません。"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -391,7 +391,7 @@ msgstr "リソース検索"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "次に等しい"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -404,7 +404,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "次の間"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -417,7 +417,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "次の範囲を除く"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -442,12 +442,12 @@ msgstr "より小さい"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "次よりも大きいか等しい"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "次よりも小さいか等しい"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -499,7 +499,7 @@ msgstr "サーバIP/サーバ名を明記"
 msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
-msgstr ""
+msgstr "（同じ名称のフィルタは置き換えられます）"
 
 #: bin/widget/view/graph_gtk/parser.py:64
 msgid "Can not generate graph !"
@@ -510,7 +510,7 @@ msgstr "グラフを生成できません。"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "未定義"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -519,7 +519,7 @@ msgstr "この(%s)タイプはGTKクライアントでサポートされてい�
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "ビューのエラー"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -553,19 +553,19 @@ msgstr "ダイヤグラムの拡大"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1722
 msgid "Shrink the Diagram"
-msgstr ""
+msgstr "ダイアグラムを縮小"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1723
 msgid "Fit the diagram to the window"
-msgstr ""
+msgstr "ダイアグラムをウィンドウに収める。"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1724
 msgid "Show the diagram at its normal size"
-msgstr ""
+msgstr "ダイアグラムを通常のサイズで表示する。"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1725
 msgid "Print the Diagram"
-msgstr ""
+msgstr "ダイアグラムを印刷する。"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1779
 #: bin/modules/gui/window/win_search.py:49
@@ -575,21 +575,21 @@ msgstr "OpenERP - リンク"
 #: bin/widget/view/diagram_gtk/xdot.py:1796
 #, python-format
 msgid "Close Current %s"
-msgstr ""
+msgstr "現在の %s を閉じる。"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1797
 #, python-format
 msgid "Delete Current %s"
-msgstr ""
+msgstr "現在の %s を削除する。"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1798
 #, python-format
 msgid "Edit Current %s"
-msgstr ""
+msgstr "現在の %s を編集する。"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1882
 msgid " - Dot Viewer"
-msgstr ""
+msgstr " - ドットビュー"
 
 #: bin/widget/view/list.py:585 bin/widget/view/list.py:586
 #: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
@@ -658,6 +658,9 @@ msgid ""
 "\n"
 "Please Save them before sorting !"
 msgstr ""
+"保存していないレコードがあります。　　\n"
+"\n"
+"分類する前に保存してください。"
 
 #: bin/widget/view/tree_gtk/date_renderer.py:197
 msgid ""
@@ -692,19 +695,19 @@ msgstr "フィルタの管理"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "無期限"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -737,6 +740,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"次の赤い項目を修正して下さい。\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -747,11 +753,11 @@ msgstr "入力エラー"
 
 #: bin/widget/view/form_gtk/parser.py:310
 msgid "Field"
-msgstr ""
+msgstr "項目"
 
 #: bin/widget/view/form_gtk/parser.py:310
 msgid "Object"
-msgstr ""
+msgstr "オブジェクト"
 
 #: bin/widget/view/form_gtk/parser.py:651
 msgid "Enter some text to the related field before adding translations!"
@@ -767,7 +773,7 @@ msgstr "翻訳ビュー"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "デフォルトのEメールクライアントとしてEメールを送信"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -843,7 +849,7 @@ msgstr "次のページ"
 #: bin/widget/view/form_gtk/many2many.py:106
 #: bin/widget/view/form_gtk/one2many_list.py:238
 msgid "Choose Limit"
-msgstr ""
+msgstr "限界を選ぶ。"
 
 #: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1067
 #: bin/openerp.ui.h:808
@@ -852,15 +858,15 @@ msgstr "OpenERP"
 
 #: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
-msgstr ""
+msgstr "保存して閉じる"
 
 #: bin/widget/view/form_gtk/one2many_list.py:75
 msgid "Save & New"
-msgstr ""
+msgstr "保存して新規"
 
 #: bin/widget/view/form_gtk/one2many_list.py:164
 #: bin/widget/view/form_gtk/interface.py:48
@@ -924,15 +930,15 @@ msgstr "画像"
 
 #: bin/widget/view/form_gtk/image.py:131
 msgid "There is no image to save as !"
-msgstr ""
+msgstr "保存すべきイメージはありません。"
 
 #: bin/widget/view/form_gtk/image.py:131
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "破損したイメージです。"
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
@@ -940,11 +946,11 @@ msgstr "デフォルトに設定"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "You can not set to the default value here !"
-msgstr ""
+msgstr "ここではデフォルトの値を設定できません。"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "許可されていない操作です。"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -984,7 +990,7 @@ msgstr "移行用スクリプト"
 
 #: bin/modules/gui/main.py:220
 msgid "Contract ID:"
-msgstr ""
+msgstr "契約ID："
 
 #: bin/modules/gui/main.py:226
 msgid "Contract Password:"
@@ -1008,7 +1014,7 @@ msgstr "データベースを移行する"
 
 #: bin/modules/gui/main.py:280
 msgid "Database"
-msgstr ""
+msgstr "データベース"
 
 #: bin/modules/gui/main.py:292
 msgid "Your database has been upgraded."
@@ -1183,7 +1189,7 @@ msgstr "データベースを復元できませんでした。"
 
 #: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "<b>パスワードを変更して下さい。</b>"
 
 #: bin/modules/gui/main.py:1450
 msgid ""
@@ -1204,7 +1210,7 @@ msgstr "不正なパスワードを提供！"
 
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "パスワードの変更ができません。古いパスワードを確認してください。"
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -1271,7 +1277,7 @@ msgstr "フィールド名"
 #: bin/modules/gui/window/win_import.py:143
 #: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
-msgstr ""
+msgstr "データベースID"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
@@ -1349,7 +1355,7 @@ msgstr "エラー。エクセルを開く!"
 #: bin/modules/gui/window/win_export.py:141
 #: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
-msgstr ""
+msgstr "項目名"
 
 #: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
 #: bin/modules/gui/window/view_tree/view_tree_sc.py:41
@@ -1366,7 +1372,7 @@ msgstr "エクスポート・エラー！"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "Excelを開いてください。"
 
 #: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
@@ -1543,14 +1549,16 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"印刷中にエラーが起きました：\n"
+"%s"
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "報告書を印刷"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
-msgstr ""
+msgstr "エラー、データがありません。印刷するためのデータがあることを確認して下さい。"
 
 #: bin/printer/printer.py:239
 msgid "Error writing the file!"
@@ -1571,6 +1579,18 @@ msgid ""
 "Mail: sales@tiny.be\n"
 "Web: http://tiny.be"
 msgstr ""
+"\n"
+"(c) 2003-TODAY - Tiny sprl\n"
+"OpenERPはTiny sprlの製品です:\n"
+"\n"
+"Tiny sprl\n"
+"40 Chaussée de Namur\n"
+"1367 Gérompont\n"
+"ベルギー\n"
+"\n"
+"電話番号 : (+32)81.81.37.00\n"
+"メールアドレス: sales@tiny.be\n"
+"Web: http://tiny.be"
 
 #: bin/openerp.ui.h:14
 #, no-c-format
@@ -1588,6 +1608,16 @@ msgid ""
 "\n"
 "More Info on www.openerp.com !"
 msgstr ""
+"\n"
+"OpenERP--GTK Client - バージョン%s\n"
+"\n"
+"OpenERPは中小企業のためのオープンソース ERP+CRMです。\n"
+"\n"
+"全体のソースコードはGNU Public Licenceに関する諸条件で分配されます。\n"
+"\n"
+"(c) 2003-TODAY、Tiny sprl\n"
+"\n"
+"www.openerp.com上により多くの情報があります 。"
 
 #: bin/openerp.ui.h:26
 msgid ""
@@ -2292,7 +2322,7 @@ msgstr "<PgUp>"
 
 #: bin/openerp.ui.h:667
 msgid "<Shift> + <Tab>"
-msgstr ""
+msgstr "<Shift> + <Tab>キー"
 
 #: bin/openerp.ui.h:668
 msgid "<Tab>"
@@ -2428,42 +2458,48 @@ msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
 "Password:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>アドミニストレータのパスワード:"
 
 #: bin/openerp.ui.h:706
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
-msgstr ""
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>パスワードの確認:"
 
 #: bin/openerp.ui.h:707
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
-msgstr ""
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>デフォルトの言語:"
 
 #: bin/openerp.ui.h:708
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
 "Data:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>デモ用のデータをロード:"
 
 #: bin/openerp.ui.h:709
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>新しいデータベース名:"
 
 #: bin/openerp.ui.h:710
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERPサーバ:"
 
 #: bin/openerp.ui.h:711
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
 "Administrator Password:"
 msgstr ""
+"<sup><b><span foreground=\"dark "
+"green\">?</span></b></sup>スーパーアドミニストレータのパスワード:"
 
 #: bin/openerp.ui.h:713
 msgid "Add Field Names"
-msgstr ""
+msgstr "項目名の追加"
 
 #: bin/openerp.ui.h:714
 msgid "Add a new line/field"
@@ -2553,7 +2589,7 @@ msgstr "保存しないで閉じる"
 
 #: bin/openerp.ui.h:733
 msgid "Company:"
-msgstr ""
+msgstr "会社:"
 
 #: bin/openerp.ui.h:734
 msgid "Compare"
@@ -2609,7 +2645,7 @@ msgstr "このリソース削除"
 
 #: bin/openerp.ui.h:748
 msgid "Diagram"
-msgstr ""
+msgstr "ダイアグラム"
 
 #: bin/openerp.ui.h:749
 msgid "Dro_p database"
@@ -2621,7 +2657,7 @@ msgstr "このリソースの編集/保存"
 
 #: bin/openerp.ui.h:751
 msgid "Edition Widgets"
-msgstr "ウィッジット編集"
+msgstr "ウィジェット編集"
 
 #: bin/openerp.ui.h:752
 msgid "Emergency:"
@@ -2629,7 +2665,7 @@ msgstr "緊急連絡先"
 
 #: bin/openerp.ui.h:753
 msgid "Enable Debug Mode Tooltips"
-msgstr ""
+msgstr "デバッグモードのツールチップを起動"
 
 #: bin/openerp.ui.h:754
 msgid "Encoding:"
@@ -2637,7 +2673,7 @@ msgstr "エンコーディング:"
 
 #: bin/openerp.ui.h:755
 msgid "Enter Filter Name:"
-msgstr ""
+msgstr "ファイル名を入力"
 
 #: bin/openerp.ui.h:756
 msgid "Explain your problem:"
@@ -2677,7 +2713,7 @@ msgstr "インポート用ファイル : "
 
 #: bin/openerp.ui.h:765
 msgid "Filter Entry"
-msgstr ""
+msgstr "フィルター項目"
 
 #: bin/openerp.ui.h:766
 msgid "Find"
@@ -2729,7 +2765,7 @@ msgstr "データインポート(_M)"
 
 #: bin/openerp.ui.h:778
 msgid "Import Compatible"
-msgstr ""
+msgstr "インポートの互換性あり"
 
 #: bin/openerp.ui.h:779
 msgid "Import from CSV"
@@ -2745,7 +2781,7 @@ msgstr "キーボードショートカット"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
@@ -2769,7 +2805,7 @@ msgstr "メインショートカット"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "中程度"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -2825,7 +2861,7 @@ msgstr "次のレコード"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "緊急ではない"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
@@ -3009,7 +3045,7 @@ msgstr "保存して閉じる"
 
 #: bin/openerp.ui.h:851
 msgid "Save as CSV"
-msgstr ""
+msgstr "CSVとして保存"
 
 #: bin/openerp.ui.h:852
 msgid "Search ID:"
@@ -3106,11 +3142,11 @@ msgstr "トップ"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "緊急"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3126,7 +3162,7 @@ msgstr "垂直"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "非常に緊急"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
@@ -3182,7 +3218,7 @@ msgstr "ドメイン(_D):"
 
 #: bin/openerp.ui.h:893
 msgid "_Download Migrations Code"
-msgstr ""
+msgstr "移行コードダウンロード(_D)"
 
 #: bin/openerp.ui.h:894
 msgid "_Duplicate"
@@ -3230,7 +3266,7 @@ msgstr "メニューバー(_M)"
 
 #: bin/openerp.ui.h:905
 msgid "_Migrate Database(s)"
-msgstr ""
+msgstr "データベースの移行(_M)"
 
 #: bin/openerp.ui.h:906
 msgid "_New"
@@ -3322,7 +3358,7 @@ msgstr "貴方個人用"
 
 #: bin/openerp.ui.h:928
 msgid "admin"
-msgstr ""
+msgstr "アドミン"
 
 #: bin/openerp.ui.h:929
 msgid "for _all users"
@@ -3367,11 +3403,11 @@ msgstr "何をしたのか説明 :"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "問題の要約"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
-msgstr ""
+msgstr "開発保証チームへ送る。"
 
 #: bin/win_error.ui.h:14
 msgid "label"
