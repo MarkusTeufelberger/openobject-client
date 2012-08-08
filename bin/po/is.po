@@ -11,14 +11,14 @@ msgstr ""
 "Project-Id-Version: bin_po_openerp-client-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-06-06 16:47+0000\n"
+"PO-Revision-Date: 2012-08-07 11:35+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <rglug@rglug.is>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-03 06:22+0000\n"
-"X-Generator: Launchpad (build 15734)\n"
+"X-Launchpad-Export-Date: 2012-08-08 05:14+0000\n"
+"X-Generator: Launchpad (build 15757)\n"
 "Language: is\n"
 
 #: bin/common/common.py:88
@@ -72,7 +72,7 @@ msgstr ""
 
 #: bin/common/common.py:410
 msgid " has reported the following bug:\n"
-msgstr ""
+msgstr " tilkynnti um eftirfarandi villu:\n"
 
 #: bin/common/common.py:410
 msgid "remarks"
@@ -189,7 +189,7 @@ msgstr "Sjá nánar"
 #: bin/translate.py:185
 #, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
-msgstr ""
+msgstr "Tókst ekki að stilla staðfærslu %(lang_enc)s: %(exception)s"
 
 #: bin/widget_search/reference.py:77 bin/widget_search/spinbutton.py:92
 #: bin/widget_search/custom_filter.py:141 bin/widget_search/filter.py:79
@@ -588,13 +588,13 @@ msgstr ""
 #: bin/widget/view/form_gtk/parser.py:788
 #: bin/widget/view/form_gtk/parser.py:845
 msgid "No other language available!"
-msgstr ""
+msgstr "Ekkert annað tungumál tiltækt!"
 
 #: bin/widget/view/form.py:244 bin/widget/view/form_gtk/parser.py:679
 #: bin/widget/view/form_gtk/parser.py:794
 #: bin/widget/view/form_gtk/parser.py:851
 msgid "Add Translation"
-msgstr ""
+msgstr "Bæta við þýðingu"
 
 #: bin/widget/view/form.py:292 bin/widget/view/form_gtk/parser.py:907
 msgid "Translate label"
@@ -644,11 +644,11 @@ msgstr "--Aðgerðir--"
 
 #: bin/widget/view/screen_container.py:73
 msgid "Save as a Filter"
-msgstr ""
+msgstr "Vista sem síu"
 
 #: bin/widget/view/screen_container.py:73
 msgid "Manage Filters"
-msgstr ""
+msgstr "Sýsla með síur"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
@@ -684,11 +684,11 @@ msgstr "Setja inn nýtt tilfang"
 
 #: bin/widget/view/form_gtk/reference.py:82
 msgid "Search / Open a resource"
-msgstr ""
+msgstr "Leita / Opna aðfang"
 
 #: bin/widget/view/form_gtk/parser.py:61
 msgid "Wrong icon for the button !"
-msgstr ""
+msgstr "Röng táknmynd á hnappnum !"
 
 #: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 #, python-format
@@ -700,7 +700,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 msgid "Input Error !"
-msgstr ""
+msgstr "Inntaksvilla !"
 
 #: bin/widget/view/form_gtk/parser.py:310
 msgid "Field"
@@ -750,7 +750,7 @@ msgstr "Hreinsa"
 #: bin/widget/view/form_gtk/binary.py:123
 #: bin/widget/view/form_gtk/binary.py:167
 msgid "Unable to read the file data"
-msgstr ""
+msgstr "Tekst ekki að lesa skráargögnin"
 
 #: bin/widget/view/form_gtk/binary.py:133
 #: bin/widget/view/form_gtk/binary.py:159
@@ -764,7 +764,7 @@ msgstr "Allar skrár"
 
 #: bin/widget/view/form_gtk/binary.py:152
 msgid "Select a file..."
-msgstr ""
+msgstr "Veldu skrá..."
 
 #: bin/widget/view/form_gtk/binary.py:171
 #: bin/widget/view/form_gtk/image.py:133 bin/modules/gui/main.py:1486
@@ -805,7 +805,7 @@ msgstr ""
 #: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1067
 #: bin/openerp.ui.h:808
 msgid "OpenERP"
-msgstr ""
+msgstr "OpenERP"
 
 #: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
