@@ -64,6 +64,8 @@ class action(interface.widget_interface):
                 self.action_view_ids = map(lambda y:y[0], filter(lambda x:x[1] == 'tree',self.action['views']))
             if self.action['view_type']=='form':
                 mode = (self.action['view_mode'] or 'form,tree').split(',')
+                if not view_id:
+                    view_id = map(lambda y:y[0], filter(lambda x:x[1] == mode[0],self.action['views']))
                 self.screen = Screen(self.action['res_model'], view_type=mode, context=self.context, view_ids = view_id, domain=self.domain)
                 self.ui = openerp_gtk_builder('openerp.ui', ['widget_paned'])
                 self.ui.connect_signals({
