@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-03 06:23+0000\n"
-"X-Generator: Launchpad (build 15734)\n"
+"X-Launchpad-Export-Date: 2012-09-08 05:31+0000\n"
+"X-Generator: Launchpad (build 15914)\n"
 "Language: tr\n"
 
 #: bin/common/common.py:88
@@ -36,7 +36,7 @@ msgstr ""
 
 #: bin/common/common.py:99
 msgid "Disable all tips"
-msgstr "Tüm İpuçlarını Kapat"
+msgstr "Tüm ipuçlarını Kapat"
 
 #: bin/common/common.py:100
 msgid ""
@@ -60,7 +60,7 @@ msgstr "OpenERP Yazılım"
 
 #: bin/common/common.py:186
 msgid "Operation in progress"
-msgstr "İşlem Sürmektedir"
+msgstr "İşlem sürüyor"
 
 #: bin/common/common.py:190
 msgid ""
