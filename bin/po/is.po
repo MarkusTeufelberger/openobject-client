@@ -11,14 +11,14 @@ msgstr ""
 "Project-Id-Version: bin_po_openerp-client-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-08-07 11:35+0000\n"
+"PO-Revision-Date: 2012-09-19 09:57+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <rglug@rglug.is>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-19 05:06+0000\n"
-"X-Generator: Launchpad (build 15966)\n"
+"X-Launchpad-Export-Date: 2012-09-20 04:59+0000\n"
+"X-Generator: Launchpad (build 15985)\n"
 "Language: is\n"
 
 #: bin/common/common.py:88
@@ -249,7 +249,7 @@ msgstr "Lokadagur"
 #: bin/widget/view/form_gtk/calendar.py:135
 #: bin/widget/view/form_gtk/calendar.py:249
 msgid "OpenERP - Date selection"
-msgstr ""
+msgstr "OpenERP - Val dagsetningar"
 
 #: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
 msgid "Hour:"
@@ -261,7 +261,7 @@ msgstr "Mínúta:"
 
 #: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
-msgstr ""
+msgstr "Ógild dagsetning/tími! Árið verður að vera meira en 1899 !"
 
 #: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
@@ -406,12 +406,12 @@ msgstr "minna en"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "stærra en jafnt og"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "minna en jafnt og"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
