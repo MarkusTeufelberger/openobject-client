@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-14 08:18+0000\n"
-"Last-Translator: Carlos Liebana <carlosliebana@gmail.com>\n"
+"PO-Revision-Date: 2012-09-26 15:06+0000\n"
+"Last-Translator: RpJ <Unknown>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-03 05:47+0000\n"
-"X-Generator: Launchpad (build 15734)\n"
+"X-Launchpad-Export-Date: 2012-09-27 04:36+0000\n"
+"X-Generator: Launchpad (build 16033)\n"
 "Language: es\n"
 
 #: bin/common/common.py:88
@@ -5622,13 +5622,9 @@ msgstr "_Licencia"
 msgid "_Menu"
 msgstr "_Menú"
 
-#
-# File: bin/openerp.glade, line: 861
-# File: bin/openerp.glade, line: 861
-# File: bin/openerp.glade, line: 861
 #: bin/openerp.ui.h:904
 msgid "_Menubar"
-msgstr "Barra de _Menú"
+msgstr "Barra de _menú"
 
 #: bin/openerp.ui.h:905
 msgid "_Migrate Database(s)"
