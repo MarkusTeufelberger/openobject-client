@@ -570,7 +570,7 @@ class Screen(signal_event.signal_event):
                 view_id = self.view_ids and self.view_ids.pop(idx) or False
             else:
                 idx = 0
-                view_id = False
+                view_id = self.view_ids and self.view_ids.pop(idx) or False
             type = self.view_to_load.pop(idx)
             self.add_view_id(view_id,type)
 
