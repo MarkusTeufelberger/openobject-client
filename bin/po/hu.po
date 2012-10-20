@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Tiny ERP V2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2012-10-19 13:39+0000\n"
+"Last-Translator: krnkris <Unknown>\n"
 "Language-Team: Hungarian <hu@gnome.hu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-10-11 05:40+0000\n"
-"X-Generator: Launchpad (build 16118)\n"
+"X-Launchpad-Export-Date: 2012-10-20 05:36+0000\n"
+"X-Generator: Launchpad (build 16165)\n"
 "Language: hu\n"
 
 #: bin/common/common.py:88
@@ -167,7 +167,7 @@ msgstr "Hiba"
 
 #: bin/common/common.py:695
 msgid "Open with..."
-msgstr ""
+msgstr "Megnyitás ezzel..."
 
 #: bin/rpc.py:157 bin/modules/action/wizard.py:149 bin/modules/gui/main.py:187
 msgid "Connection refused !"
@@ -240,15 +240,15 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "ÉS"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "VAGY"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
-msgstr ""
+msgstr "Hiba: "
 
 #: bin/widget_search/form.py:500
 msgid "The content of the form or exception if not valid"
@@ -318,7 +318,7 @@ msgstr "Nem"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "a(z)"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -332,7 +332,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "nem az, hogy"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -348,7 +348,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "ez üres"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -364,7 +364,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "ez nem üres"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -385,7 +385,7 @@ msgstr "Erőforrás keresése"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Egyenlő"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -398,7 +398,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "között"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -436,12 +436,12 @@ msgstr "kevesebb, mint"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "nagyobb vagy egyenlő"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "kisebb vagy egyenlő"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -494,6 +494,8 @@ msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
 msgstr ""
+"(Bármely létező szűrő ugyanezen\n"
+"névvel felülíródik)"
 
 #: bin/widget/view/graph_gtk/parser.py:64
 msgid "Can not generate graph !"
@@ -504,7 +506,7 @@ msgstr "Nem lehet grafikont előállítani!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Nem meghatározott"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -693,19 +695,19 @@ msgstr "Szűrők kezelése"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Korlátlan"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -741,6 +743,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Javítsa a következő piros mezőket !\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -771,7 +776,7 @@ msgstr "Nézet fordítása."
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Küldjön e-mail-t az alapértelmezett e-mail felhasználóval"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -936,7 +941,7 @@ msgstr "Képek"
 
 #: bin/widget/view/form_gtk/image.py:131
 msgid "There is no image to save as !"
-msgstr ""
+msgstr "Nem létező kép a mentéshez !"
 
 #: bin/widget/view/form_gtk/image.py:131
 msgid "Warning"
@@ -944,7 +949,7 @@ msgstr "Figyelem"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "A képfájl hibás"
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
@@ -956,7 +961,7 @@ msgstr "Itt nem lehet beállítani az alapértelmezett értéket !"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "A művelet nem megengedett!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -1204,7 +1209,7 @@ msgstr "Az adatbázist nem sikerült visszaállítani"
 
 #: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "<b>Változtassa meg a jelszavát</b>"
 
 #: bin/modules/gui/main.py:1450
 msgid ""
@@ -1226,7 +1231,7 @@ msgstr "Hibás jelszó lett megadva !"
 
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "A jelszó változtatás sikertelen, kérjük ellenőrizze a régi jelszót."
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -1293,7 +1298,7 @@ msgstr "Mezőnév"
 #: bin/modules/gui/window/win_import.py:143
 #: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
-msgstr ""
+msgstr "Adatbázis ID"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
@@ -1371,7 +1376,7 @@ msgstr "Hiba az Excel megnyitása közben !"
 #: bin/modules/gui/window/win_export.py:141
 #: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
-msgstr ""
+msgstr "Mező neve"
 
 #: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
 #: bin/modules/gui/window/view_tree/view_tree_sc.py:41
@@ -1388,7 +1393,7 @@ msgstr "Exportálási Hiba !"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "Exel táblázatkénti megnyitás"
 
 #: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
@@ -1568,10 +1573,12 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Hiba nyomtatás közben:\n"
+"%s"
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Jelentés kinyomtatása"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -2533,7 +2540,7 @@ msgstr ""
 
 #: bin/openerp.ui.h:713
 msgid "Add Field Names"
-msgstr ""
+msgstr "Mező név hozzáadása"
 
 #: bin/openerp.ui.h:714
 msgid "Add a new line/field"
@@ -2713,7 +2720,7 @@ msgstr "Kódolás:"
 
 #: bin/openerp.ui.h:755
 msgid "Enter Filter Name:"
-msgstr ""
+msgstr "Szűrő nevének megadása:"
 
 #: bin/openerp.ui.h:756
 msgid "Explain your problem:"
@@ -2825,7 +2832,7 @@ msgstr "Gyorsbillentyűk"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #
 # File: bin/openerp.glade, line: 1355
@@ -2851,7 +2858,7 @@ msgstr "Főbb gyorsbillentyűk"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Közepes"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -2911,7 +2918,7 @@ msgstr "Következő rekord"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Nem sürgős"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
@@ -3103,7 +3110,7 @@ msgstr "Mentés és ablak bezárása"
 
 #: bin/openerp.ui.h:851
 msgid "Save as CSV"
-msgstr ""
+msgstr "Mentés CSV-ként"
 
 #: bin/openerp.ui.h:852
 msgid "Search ID:"
@@ -3178,6 +3185,8 @@ msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database. It has to be the same than the above field."
 msgstr ""
+"Ez az 'admin' felhasználó jelszava, amelyet az új adatbázisban létrehozunk. "
+"A fenti mezővel meg kell egyeznie."
 
 #: bin/openerp.ui.h:869
 msgid ""
@@ -3205,11 +3214,11 @@ msgstr "Felül"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Sürgős"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3227,7 +3236,7 @@ msgstr "Függőleges"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Nagyon sürgős"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
@@ -3452,7 +3461,7 @@ msgstr "<i>_Részletek</i>"
 
 #: bin/win_error.ui.h:6
 msgid "<i>_Publisher Warranty</i>"
-msgstr ""
+msgstr "<i>_Kiadóigarancia</i>"
 
 #: bin/win_error.ui.h:7
 msgid "<i>_Support Request</i>"
@@ -3460,7 +3469,7 @@ msgstr "<i>_Segítség kérés</i>"
 
 #: bin/win_error.ui.h:8
 msgid "Click here for details about the publisher warranty proposition"
-msgstr ""
+msgstr "Kattintson ide a kiadói garancia javaslat részleteiért"
 
 #: bin/win_error.ui.h:9
 msgid "Details"
@@ -3472,11 +3481,11 @@ msgstr "Írja le, mit csinált:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Probléma összegzése:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
-msgstr ""
+msgstr "Küldés a kiadói/terjesztői garancia csapatnak"
 
 #: bin/win_error.ui.h:14
 msgid "label"
