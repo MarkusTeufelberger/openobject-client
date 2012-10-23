@@ -23,7 +23,7 @@ import time
 import datetime
 import locale
 
-import win32ui
+from ctypes import windll
 import win32con
 try:
     import winxpgui as win32gui
@@ -46,16 +46,16 @@ if not hasattr(locale, 'nl_langinfo'):
 
 def get_systemfont_style():
     # Get DC
-    hdc = win32gui.GetDC(0)
+    hdc = windll.user32.GetDC(0)
     # Get system DPI
-    dpi = win32ui.GetDeviceCaps(hdc, win32con.LOGPIXELSY)
+    dpi = windll.gdi32.GetDeviceCaps(hdc, win32con.LOGPIXELSY)
     # Get system font, it's name and size
     z = win32gui.SystemParametersInfo(win32con.SPI_GETNONCLIENTMETRICS)
     font = z['lfMessageFont']
     font_name = font.lfFaceName
     font_size = int(round(abs(font.lfHeight) * 72 / dpi))
     # Release DC
-    win32gui.ReleaseDC(0, hdc)
+    windll.user32.ReleaseDC(0, hdc)
     # Construct sytle for all widget
     font_style = '''
         style "openerp-user-font" {
