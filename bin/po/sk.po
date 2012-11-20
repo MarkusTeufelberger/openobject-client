@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2012-11-19 19:59+0000\n"
+"Last-Translator: Peter Kohaut <peter.kohaut@gmail.com>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-10-31 05:20+0000\n"
-"X-Generator: Launchpad (build 16218)\n"
+"X-Launchpad-Export-Date: 2012-11-20 05:16+0000\n"
+"X-Generator: Launchpad (build 16286)\n"
 "Language: sk\n"
 
 #: bin/common/common.py:88
@@ -283,11 +283,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "A"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "ALEBO"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
@@ -355,7 +355,7 @@ msgstr "Nie"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "je"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -369,7 +369,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "nie je"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -385,7 +385,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "je prázdne"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -401,7 +401,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "nie je prázdne"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -422,7 +422,7 @@ msgstr "Hľadanie prostriedku"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Rovná sa"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -435,7 +435,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "medzi"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -448,7 +448,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "mimo rozsahu"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -473,12 +473,12 @@ msgstr "menej ako"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "väčšie alebo rovné ako"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "menšie alebo rovné ako"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -543,7 +543,7 @@ msgstr "Nie je možné vygenerovať graf!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Nedefinované"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -552,7 +552,7 @@ msgstr "Tento typ (%s) nie je podporovaný v klientskej aplikácii !"
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "Chyba pohľadu"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -736,19 +736,19 @@ msgstr "Spravovať filtre"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Neobmedzené"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -811,7 +811,7 @@ msgstr "Preložiť pohľad"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Poslať email s predvoleným emailovým klientom"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -976,7 +976,7 @@ msgstr "Varovanie"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "Obrázok poškodený"
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
