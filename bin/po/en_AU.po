@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-12-16 04:42+0000\n"
+"PO-Revision-Date: 2012-12-16 05:13+0000\n"
 "Last-Translator: Harmel Delphine (OpenERP) <Unknown>\n"
 "Language-Team: English (Australia) <en_AU@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-12-16 04:45+0000\n"
+"X-Launchpad-Export-Date: 2012-12-17 04:44+0000\n"
 "X-Generator: Launchpad (build 16372)\n"
 "Language: \n"
 
@@ -255,7 +255,7 @@ msgstr "Unable to set locale %(lang_enc)s: %(exception)s"
 #: bin/widget_search/checkbox.py:68 bin/widget_search/selection.py:116
 #: bin/widget/view/form_gtk/button.py:47
 msgid "The content of the widget or ValueError if not valid"
-msgstr "The content of the widget or ValueError is not valid"
+msgstr "The content of the widget or ValueError if not valid"
 
 #: bin/widget_search/date_widget.py:65
 #: bin/widget/view/form_gtk/date_widget.py:65
@@ -2606,7 +2606,7 @@ msgstr "Bottom"
 
 #: bin/openerp.ui.h:722
 msgid "CSV Parameters"
-msgstr ""
+msgstr "CSV Parameters"
 
 #: bin/openerp.ui.h:723
 msgid "Calendar"
@@ -2622,10 +2622,13 @@ msgid ""
 "database. These data will help you to understand OpenERP, with predefined "
 "products, partners, etc."
 msgstr ""
+"Check this box if you want demonstration data to be installed in your new "
+"database. This data will help you understand OpenERP better by providing "
+"predefined products, partners, etc."
 
 #: bin/openerp.ui.h:727
 msgid "Choose a database..."
-msgstr ""
+msgstr "Choose a database..."
 
 #: bin/openerp.ui.h:728
 msgid ""
@@ -2633,12 +2636,17 @@ msgid ""
 "will be able to install new languages after installation through the "
 "administration menu."
 msgstr ""
+"Choose the default language that will be installed for this database. You "
+"will be able to install new languages after installation from the settings "
+"menu."
 
 #: bin/openerp.ui.h:729
 msgid ""
 "Choose the name of the database that will be created. The name must not "
 "contain any special character. Exemple: 'terp'."
 msgstr ""
+"Choose the name of the database that will be created. The name must not "
+"contain any special characters. Example: 'oerp'."
 
 #: bin/openerp.ui.h:730
 msgid "Close Tab"
@@ -2650,11 +2658,11 @@ msgstr "Close this window"
 
 #: bin/openerp.ui.h:732
 msgid "Close window without saving"
-msgstr ""
+msgstr "Close window without saving"
 
 #: bin/openerp.ui.h:733
 msgid "Company:"
-msgstr ""
+msgstr "Company:"
 
 #: bin/openerp.ui.h:734
 msgid "Compare"
@@ -2662,7 +2670,7 @@ msgstr "Compare"
 
 #: bin/openerp.ui.h:735
 msgid "Concurrency exception"
-msgstr ""
+msgstr "Concurrency exception"
 
 #: bin/openerp.ui.h:736
 msgid "Connect"
@@ -2670,11 +2678,11 @@ msgstr "Connect"
 
 #: bin/openerp.ui.h:737
 msgid "Copy selected text"
-msgstr ""
+msgstr "Copy selected text"
 
 #: bin/openerp.ui.h:738
 msgid "Copy this resource"
-msgstr ""
+msgstr "Copy this resource"
 
 #: bin/openerp.ui.h:739
 msgid "Create a new database"
@@ -2682,7 +2690,7 @@ msgstr "Create a new database"
 
 #: bin/openerp.ui.h:741
 msgid "Cut selected text"
-msgstr ""
+msgstr "Cut selected text"
 
 #: bin/openerp.ui.h:742
 msgid "Database:"
@@ -2698,7 +2706,7 @@ msgstr "Day"
 
 #: bin/openerp.ui.h:745
 msgid "Default _value:"
-msgstr ""
+msgstr "Default _value:"
 
 #: bin/openerp.ui.h:746
 msgid "Delete"
@@ -2706,19 +2714,19 @@ msgstr "Delete"
 
 #: bin/openerp.ui.h:747
 msgid "Delete this resource"
-msgstr ""
+msgstr "Delete this resource"
 
 #: bin/openerp.ui.h:748
 msgid "Diagram"
-msgstr ""
+msgstr "Diagram"
 
 #: bin/openerp.ui.h:749
 msgid "Dro_p database"
-msgstr ""
+msgstr "Dro_p database"
 
 #: bin/openerp.ui.h:750
 msgid "Edit / Save this resource"
-msgstr ""
+msgstr "Edit / Save this resource"
 
 #: bin/openerp.ui.h:751
 msgid "Edition Widgets"
@@ -2726,11 +2734,11 @@ msgstr ""
 
 #: bin/openerp.ui.h:752
 msgid "Emergency:"
-msgstr ""
+msgstr "Emergency:"
 
 #: bin/openerp.ui.h:753
 msgid "Enable Debug Mode Tooltips"
-msgstr ""
+msgstr "Enable Debug Mode Tooltips"
 
 #: bin/openerp.ui.h:754
 msgid "Encoding:"
@@ -2738,15 +2746,15 @@ msgstr "Encoding:"
 
 #: bin/openerp.ui.h:755
 msgid "Enter Filter Name:"
-msgstr ""
+msgstr "Enter Filter Name:"
 
 #: bin/openerp.ui.h:756
 msgid "Explain your problem:"
-msgstr ""
+msgstr "Explain your problem:"
 
 #: bin/openerp.ui.h:757
 msgid "Expor_t data..."
-msgstr ""
+msgstr "Expor_t data..."
 
 #: bin/openerp.ui.h:759
 msgid "F1"
@@ -2758,23 +2766,23 @@ msgstr "F2"
 
 #: bin/openerp.ui.h:761
 msgid "Field Separator: "
-msgstr ""
+msgstr "Field Separator: "
 
 #: bin/openerp.ui.h:762
 msgid "Field _Name:"
-msgstr ""
+msgstr "Field _Name:"
 
 #: bin/openerp.ui.h:763
 msgid "Fields to Export"
-msgstr ""
+msgstr "Fields to Export"
 
 #: bin/openerp.ui.h:764
 msgid "File to Import: "
-msgstr ""
+msgstr "File to Import: "
 
 #: bin/openerp.ui.h:765
 msgid "Filter Entry"
-msgstr ""
+msgstr "Filter Entry"
 
 #: bin/openerp.ui.h:766
 msgid "Find"
@@ -2782,11 +2790,11 @@ msgstr "Find"
 
 #: bin/openerp.ui.h:767
 msgid "Find / Search"
-msgstr ""
+msgstr "Find / Search"
 
 #: bin/openerp.ui.h:768
 msgid "For_m"
-msgstr ""
+msgstr "For_m"
 
 #: bin/openerp.ui.h:769
 msgid "Form"
@@ -2794,19 +2802,19 @@ msgstr "Form"
 
 #: bin/openerp.ui.h:770
 msgid "Gantt"
-msgstr ""
+msgstr "Gantt"
 
 #: bin/openerp.ui.h:771
 msgid "Go to next matched resource"
-msgstr ""
+msgstr "Go to next matched resource"
 
 #: bin/openerp.ui.h:772
 msgid "Go to previous matched search"
-msgstr ""
+msgstr "Go to previous matched search"
 
 #: bin/openerp.ui.h:773
 msgid "Go to resource ID"
-msgstr ""
+msgstr "Go to resource ID"
 
 #: bin/openerp.ui.h:774
 msgid "Graph"
@@ -2814,7 +2822,7 @@ msgstr "Graph"
 
 #: bin/openerp.ui.h:775
 msgid "Hello World!"
-msgstr ""
+msgstr "Hello World!"
 
 #: bin/openerp.ui.h:776
 msgid "Horizontal"
@@ -2822,15 +2830,15 @@ msgstr "Horizontal"
 
 #: bin/openerp.ui.h:777
 msgid "I_mport data..."
-msgstr ""
+msgstr "I_mport data..."
 
 #: bin/openerp.ui.h:778
 msgid "Import Compatible"
-msgstr ""
+msgstr "Import Compatible"
 
 #: bin/openerp.ui.h:779
 msgid "Import from CSV"
-msgstr ""
+msgstr "Import from CSV"
 
 #: bin/openerp.ui.h:780
 msgid "Keyboard Shortcuts"
@@ -2842,11 +2850,11 @@ msgstr "Keyboard shortcuts"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
-msgstr ""
+msgstr "Launch actions for this resource"
 
 #: bin/openerp.ui.h:784
 msgid "Left"
@@ -2854,7 +2862,7 @@ msgstr "Left"
 
 #: bin/openerp.ui.h:785
 msgid "Lines to Skip:"
-msgstr ""
+msgstr "Lines to Skip:"
 
 #: bin/openerp.ui.h:786
 msgid "List"
@@ -2862,11 +2870,11 @@ msgstr "List"
 
 #: bin/openerp.ui.h:787
 msgid "Main Shortcuts"
-msgstr ""
+msgstr "Main Shortcuts"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -2878,7 +2886,7 @@ msgstr "Month"
 
 #: bin/openerp.ui.h:791
 msgid "N_othing"
-msgstr ""
+msgstr "N_othing"
 
 #: bin/openerp.ui.h:792
 msgid "Ne_xt"
@@ -2886,7 +2894,7 @@ msgstr "Ne_xt"
 
 #: bin/openerp.ui.h:793
 msgid "Ne_xt Tip"
-msgstr ""
+msgstr "Ne_xt Tip"
 
 #: bin/openerp.ui.h:794
 msgid "New"
@@ -2894,11 +2902,11 @@ msgstr "New"
 
 #: bin/openerp.ui.h:795
 msgid "New database name:"
-msgstr ""
+msgstr "New database name:"
 
 #: bin/openerp.ui.h:796
 msgid "New password confirmation:"
-msgstr ""
+msgstr "New password confirmation:"
 
 #: bin/openerp.ui.h:797
 msgid "New password:"
@@ -2910,47 +2918,47 @@ msgstr "Next"
 
 #: bin/openerp.ui.h:799
 msgid "Next Tab"
-msgstr ""
+msgstr "Next Tab"
 
 #: bin/openerp.ui.h:800
 msgid "Next editable widget"
-msgstr ""
+msgstr "Next editable widget"
 
 #: bin/openerp.ui.h:801
 msgid "Next record"
-msgstr ""
+msgstr "Next record"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Not Urgent"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
-msgstr ""
+msgstr "Old password:"
 
 #: bin/openerp.ui.h:804
 msgid "Open ERP - Forms widget"
-msgstr ""
+msgstr "OpenERP - Forms widget"
 
 #: bin/openerp.ui.h:805
 msgid "Open current field"
-msgstr ""
+msgstr "Open current field"
 
 #: bin/openerp.ui.h:809
 msgid "OpenERP - About"
-msgstr ""
+msgstr "OpenERP - About"
 
 #: bin/openerp.ui.h:810
 msgid "OpenERP - Confirmation"
-msgstr ""
+msgstr "OpenERP - Confirmation"
 
 #: bin/openerp.ui.h:811
 msgid "OpenERP - Dialog"
-msgstr ""
+msgstr "OpenERP - Dialog"
 
 #: bin/openerp.ui.h:812
 msgid "OpenERP - Export to CSV"
-msgstr ""
+msgstr "OpenERP - Export to CSV"
 
 #: bin/openerp.ui.h:813
 msgid "OpenERP - Forms"
@@ -2958,43 +2966,43 @@ msgstr "OpenERP - Forms"
 
 #: bin/openerp.ui.h:814
 msgid "OpenERP - License"
-msgstr ""
+msgstr "OpenERP - License"
 
 #: bin/openerp.ui.h:815
 msgid "OpenERP - Login"
-msgstr ""
+msgstr "OpenERP - Login"
 
 #: bin/openerp.ui.h:816
 msgid "OpenERP - Preferences"
-msgstr ""
+msgstr "OpenERP - Preferences"
 
 #: bin/openerp.ui.h:817
 msgid "OpenERP - Search"
-msgstr ""
+msgstr "OpenERP - Search"
 
 #: bin/openerp.ui.h:818
 msgid "OpenERP - Selection"
-msgstr ""
+msgstr "OpenERP - Selection"
 
 #: bin/openerp.ui.h:819
 msgid "OpenERP - Tree Resources"
-msgstr ""
+msgstr "OpenERP - Tree Resources"
 
 #: bin/openerp.ui.h:820
 msgid "OpenERP Message"
-msgstr ""
+msgstr "OpenERP Message"
 
 #: bin/openerp.ui.h:821
 msgid "OpenERP license"
-msgstr ""
+msgstr "OpenERP License"
 
 #: bin/openerp.ui.h:822
 msgid "OpenERP, Field Preference target"
-msgstr ""
+msgstr "OpenERP, Field Preference target"
 
 #: bin/openerp.ui.h:823 bin/win_error.ui.h:11
 msgid "Other comments:"
-msgstr ""
+msgstr "Other comments:"
 
 #: bin/openerp.ui.h:824
 msgid "Password:"
@@ -3002,7 +3010,7 @@ msgstr "Password:"
 
 #: bin/openerp.ui.h:825
 msgid "Paste selected text"
-msgstr ""
+msgstr "Paste selected text"
 
 #: bin/openerp.ui.h:826
 msgid "Phone number:"
@@ -3018,15 +3026,15 @@ msgstr "Pre_vious"
 
 #: bin/openerp.ui.h:829
 msgid "Pre_vious Tip"
-msgstr ""
+msgstr "Pre_vious Tip"
 
 #: bin/openerp.ui.h:830
 msgid "Previe_w before print"
-msgstr ""
+msgstr "Previe_w before print"
 
 #: bin/openerp.ui.h:831
 msgid "Previe_w in editor"
-msgstr ""
+msgstr "Previe_w in editor"
 
 #: bin/openerp.ui.h:832
 msgid "Previous"
@@ -3034,35 +3042,35 @@ msgstr "Previous"
 
 #: bin/openerp.ui.h:833
 msgid "Previous Tab"
-msgstr ""
+msgstr "Previous Tab"
 
 #: bin/openerp.ui.h:834
 msgid "Previous editable widget"
-msgstr ""
+msgstr "Previous editable widget"
 
 #: bin/openerp.ui.h:835
 msgid "Previous record"
-msgstr ""
+msgstr "Previous record"
 
 #: bin/openerp.ui.h:836
 msgid "Previous tab"
-msgstr ""
+msgstr "Previous tab"
 
 #: bin/openerp.ui.h:837
 msgid "Print documents"
-msgstr ""
+msgstr "Print documents"
 
 #: bin/openerp.ui.h:838
 msgid "Protocol connection:"
-msgstr ""
+msgstr "Protocol connection:"
 
 #: bin/openerp.ui.h:839
 msgid "Read my Requests"
-msgstr ""
+msgstr "Read my Requests"
 
 #: bin/openerp.ui.h:840
 msgid "Reloa_d / Undo"
-msgstr ""
+msgstr "Reloa_d / Undo"
 
 #: bin/openerp.ui.h:841
 msgid "Reload"
@@ -3074,15 +3082,15 @@ msgstr "Remove List"
 
 #: bin/openerp.ui.h:843
 msgid "Repeat latest _action"
-msgstr ""
+msgstr "Repeat last _action"
 
 #: bin/openerp.ui.h:844
 msgid "Requests:"
-msgstr ""
+msgstr "Requests:"
 
 #: bin/openerp.ui.h:845
 msgid "Restore a database"
-msgstr ""
+msgstr "Restore a database"
 
 #: bin/openerp.ui.h:846
 msgid "Right"
@@ -3090,7 +3098,7 @@ msgstr "Right"
 
 #: bin/openerp.ui.h:847
 msgid "Right Toolbar"
-msgstr ""
+msgstr "Right Toolbar"
 
 #: bin/openerp.ui.h:848
 msgid "Save"
@@ -3102,7 +3110,7 @@ msgstr "Save List"
 
 #: bin/openerp.ui.h:850
 msgid "Save and Close window"
-msgstr ""
+msgstr "Save and Close window"
 
 #
 # File: bin/modules/gui/window/win_export.py, line: 167
@@ -3112,11 +3120,11 @@ msgstr "Save as CSV"
 
 #: bin/openerp.ui.h:852
 msgid "Search ID:"
-msgstr ""
+msgstr "Search ID:"
 
 #: bin/openerp.ui.h:853
 msgid "Send a new request"
-msgstr ""
+msgstr "Send a new request"
 
 #: bin/openerp.ui.h:854
 msgid "September 2008"
@@ -3136,49 +3144,55 @@ msgstr "State:"
 
 #: bin/openerp.ui.h:859
 msgid "Support Request"
-msgstr ""
+msgstr "Support Request"
 
 #: bin/openerp.ui.h:860
 msgid "Switch to list/form"
-msgstr ""
+msgstr "Switch to list/form"
 
 #: bin/openerp.ui.h:861
 msgid "Switch view mode"
-msgstr ""
+msgstr "Switch view mode"
 
 #: bin/openerp.ui.h:862
 msgid "Tabs default orientation"
-msgstr ""
+msgstr "Tabs default orientation"
 
 #: bin/openerp.ui.h:863
 msgid "Tabs default position"
-msgstr ""
+msgstr "Tabs default position"
 
 #: bin/openerp.ui.h:864
 msgid "Text Delimiter:"
-msgstr ""
+msgstr "Text Delimiter:"
 
 #: bin/openerp.ui.h:865
 msgid "Text _and Icons"
-msgstr ""
+msgstr "Text _and Icons"
 
 #: bin/openerp.ui.h:866
 msgid ""
 "This is the URL of the OpenERP server. Use 'localhost' if the server is "
 "installed on this computer. Click on 'Change' to change the address."
 msgstr ""
+"This is the URL of the OpenERP server. Use 'localhost' if the server is "
+"installed on this computer. Click on 'Change' to change the address."
 
 #: bin/openerp.ui.h:867
 msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database."
 msgstr ""
+"This is the password of the 'admin' user that will be created in your new "
+"database."
 
 #: bin/openerp.ui.h:868
 msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database. It has to be the same than the above field."
 msgstr ""
+"This is the password of the 'admin' user that will be created in your new "
+"database. It has to be the same as the field above."
 
 #: bin/openerp.ui.h:869
 msgid ""
@@ -3186,6 +3200,9 @@ msgid ""
 "databases. This is not a OpenERP user, just a super administrator. If you "
 "did not changed it, the password is 'admin' after installation."
 msgstr ""
+"This is the password of the user who has rights to administer databases. "
+"This is not an OpenERP user but a super administrator. If you did not change "
+"it then the password is 'admin' from the installation."
 
 #: bin/openerp.ui.h:870
 msgid "Tip of the Day"
@@ -3201,15 +3218,15 @@ msgstr "Top"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Urgent"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
-msgstr ""
+msgstr "User _Manual"
 
 #: bin/openerp.ui.h:876
 msgid "User:"
@@ -3221,19 +3238,19 @@ msgstr "Vertical"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Very Urgent"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
-msgstr ""
+msgstr "View _logs"
 
 #: bin/openerp.ui.h:881
 msgid "Write anyway"
-msgstr ""
+msgstr "Write Anyway"
 
 #: bin/openerp.ui.h:882
 msgid "Your selection:"
-msgstr ""
+msgstr "Your selection:"
 
 #: bin/openerp.ui.h:883
 msgid "_About..."
@@ -3245,7 +3262,7 @@ msgstr "_Add"
 
 #: bin/openerp.ui.h:885
 msgid "_Backup database"
-msgstr ""
+msgstr "_Backup database"
 
 #: bin/openerp.ui.h:886
 msgid "_Connect..."
@@ -3257,7 +3274,7 @@ msgstr "_Contact"
 
 #: bin/openerp.ui.h:888
 msgid "_Contextual Help"
-msgstr ""
+msgstr "_Contextual Help"
 
 #: bin/openerp.ui.h:889
 msgid "_Delete"
@@ -3269,7 +3286,7 @@ msgstr "_Disconnect"
 
 #: bin/openerp.ui.h:891
 msgid "_Display a new tip next time?"
-msgstr ""
+msgstr "_Display a new tip next time?"
 
 #: bin/openerp.ui.h:892
 msgid "_Domain:"
@@ -3277,7 +3294,7 @@ msgstr "_Domain:"
 
 #: bin/openerp.ui.h:893
 msgid "_Download Migrations Code"
-msgstr ""
+msgstr "_Download Migrations Code"
 
 #: bin/openerp.ui.h:894
 msgid "_Duplicate"
@@ -3285,11 +3302,11 @@ msgstr "_Duplicate"
 
 #: bin/openerp.ui.h:895
 msgid "_Execute a plugin"
-msgstr ""
+msgstr "_Execute a plugin"
 
 #: bin/openerp.ui.h:896
 msgid "_Extension Manager"
-msgstr ""
+msgstr "_Extension Manager"
 
 #: bin/openerp.ui.h:897
 msgid "_File"
@@ -3297,11 +3314,11 @@ msgstr "_File"
 
 #: bin/openerp.ui.h:898
 msgid "_Forms"
-msgstr ""
+msgstr "_Forms"
 
 #: bin/openerp.ui.h:899
 msgid "_Go to resource ID..."
-msgstr ""
+msgstr "_Go to resource ID..."
 
 #: bin/openerp.ui.h:900
 msgid "_Help"
@@ -3317,15 +3334,15 @@ msgstr "_License"
 
 #: bin/openerp.ui.h:903
 msgid "_Menu"
-msgstr ""
+msgstr "_Menu"
 
 #: bin/openerp.ui.h:904
 msgid "_Menubar"
-msgstr ""
+msgstr "_Menubar"
 
 #: bin/openerp.ui.h:905
 msgid "_Migrate Database(s)"
-msgstr ""
+msgstr "_Migrate Database(s)"
 
 #: bin/openerp.ui.h:906
 msgid "_New"
@@ -3333,15 +3350,15 @@ msgstr "_New"
 
 #: bin/openerp.ui.h:907
 msgid "_New Home Tab"
-msgstr ""
+msgstr "_New Home Tab"
 
 #: bin/openerp.ui.h:908
 msgid "_New database"
-msgstr ""
+msgstr "_New database"
 
 #: bin/openerp.ui.h:909
 msgid "_Nothing"
-msgstr ""
+msgstr "_Nothing"
 
 #: bin/openerp.ui.h:910
 msgid "_Open"
@@ -3349,7 +3366,7 @@ msgstr "_Open"
 
 #: bin/openerp.ui.h:911
 msgid "_OpenERP"
-msgstr ""
+msgstr "_OpenERP"
 
 #: bin/openerp.ui.h:912
 msgid "_Options"
@@ -3365,7 +3382,7 @@ msgstr "_Preferences"
 
 #: bin/openerp.ui.h:915
 msgid "_Preview in PDF"
-msgstr ""
+msgstr "_Preview as PDF"
 
 #: bin/openerp.ui.h:916
 msgid "_Print"
@@ -3373,7 +3390,7 @@ msgstr "_Print"
 
 #: bin/openerp.ui.h:917
 msgid "_Read my requests"
-msgstr ""
+msgstr "_Read my requests"
 
 #: bin/openerp.ui.h:918
 msgid "_Remove"
@@ -3381,7 +3398,7 @@ msgstr "_Remove"
 
 #: bin/openerp.ui.h:919
 msgid "_Restore database"
-msgstr ""
+msgstr "_Restore database"
 
 #: bin/openerp.ui.h:920
 msgid "_Save"
@@ -3393,11 +3410,11 @@ msgstr "_Save options"
 
 #: bin/openerp.ui.h:922
 msgid "_Send a request"
-msgstr ""
+msgstr "_Send a request"
 
 #: bin/openerp.ui.h:923
 msgid "_Shortcuts"
-msgstr ""
+msgstr "_Shortcuts"
 
 #: bin/openerp.ui.h:924
 msgid "_Text only"
@@ -3409,23 +3426,23 @@ msgstr "_User"
 
 #: bin/openerp.ui.h:926
 msgid "_Waiting Requests"
-msgstr ""
+msgstr "_Waiting Requests"
 
 #: bin/openerp.ui.h:927
 msgid "_only for you"
-msgstr ""
+msgstr "_only for you"
 
 #: bin/openerp.ui.h:928
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: bin/openerp.ui.h:929
 msgid "for _all users"
-msgstr ""
+msgstr "for _all users"
 
 #: bin/openerp.ui.h:930
 msgid "http://localhost:8069"
-msgstr ""
+msgstr "http://localhost:8069"
 
 #: bin/win_error.ui.h:1
 msgid ""
@@ -3435,22 +3452,27 @@ msgid ""
 "you shortly.\n"
 "</i>"
 msgstr ""
+"<b>Publisher Warranty Contract.</b>\n"
+"<i>\n"
+"Your request will be sent to OpenERP and the publisher warranty team will "
+"reply shortly.\n"
+"</i>"
 
 #: bin/win_error.ui.h:5
 msgid "<i>_Details</i>"
-msgstr ""
+msgstr "<i>_Details</i>"
 
 #: bin/win_error.ui.h:6
 msgid "<i>_Publisher Warranty</i>"
-msgstr ""
+msgstr "<i>_Publisher Warranty</i>"
 
 #: bin/win_error.ui.h:7
 msgid "<i>_Support Request</i>"
-msgstr ""
+msgstr "<i>_Support Request</i>"
 
 #: bin/win_error.ui.h:8
 msgid "Click here for details about the publisher warranty proposition"
-msgstr ""
+msgstr "Click here for details about the publisher warranty proposition"
 
 #: bin/win_error.ui.h:9
 msgid "Details"
@@ -3458,15 +3480,15 @@ msgstr "Details"
 
 #: bin/win_error.ui.h:10
 msgid "Explain what you did:"
-msgstr ""
+msgstr "Explain what you did:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Problems summary:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
-msgstr ""
+msgstr "Send to Publisher Warranty Team"
 
 #: bin/win_error.ui.h:14
 msgid "label"
