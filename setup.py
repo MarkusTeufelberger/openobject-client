@@ -203,7 +203,7 @@ if has_py2exe:
     if os.getenv('gtk_runtime'):
         gtk_runtime=os.getenv('gtk_runtime')
         # To enable gtk theme we need to add below dir of gtkruntime to dist dir
-        add_dir = ["share\\themes", "lib\\gtk-2.0", "etc"]
+        add_dir = ["share\\locale", "share\\themes", "lib\\gtk-2.0", "etc"]
         for dir in add_dir:
             copy(opj(gtk_runtime, dir), opj(dist, dir))
     else:
