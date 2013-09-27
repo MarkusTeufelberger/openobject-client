@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-07-01 08:57+0000\n"
-"Last-Translator: Aputsiaq Niels Janussen <aj@isit.gl>\n"
+"PO-Revision-Date: 2013-09-26 21:14+0000\n"
+"Last-Translator: Morten Schou <ms@msteknik.dk>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-08-03 05:45+0000\n"
-"X-Generator: Launchpad (build 15734)\n"
+"X-Launchpad-Export-Date: 2013-09-27 05:49+0000\n"
+"X-Generator: Launchpad (build 16774)\n"
 "Language: da\n"
 
 #: bin/common/common.py:88
@@ -521,7 +521,7 @@ msgstr "Kan ikke generere grafen!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Udefineret"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -530,7 +530,7 @@ msgstr "Denne type (%s) er ikke understøttet af GTK klienten!"
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "View fejl!"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -966,7 +966,7 @@ msgstr "Du kan ikke indstille standardværdien her!"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "Handlingen er ikke tilladt!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -2793,7 +2793,7 @@ msgstr "Tastaturgenveje"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
@@ -2817,7 +2817,7 @@ msgstr "Vigtigste genveje"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -2873,7 +2873,7 @@ msgstr "Næste post"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Ikke vigtig"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
@@ -3161,11 +3161,11 @@ msgstr "Top"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Haster"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3181,7 +3181,7 @@ msgstr "Vertikal"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Haster meget"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
