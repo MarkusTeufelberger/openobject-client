@@ -174,10 +174,10 @@ class form(object):
         ## and needed to be converted to real ids
         if isinstance(get_id, str):
             get_id = int(get_id.split('-')[0])
-        all_ids = rpc.session.rpc_exec_auth('/object', 'execute', self.model, 'search', [])
         if widget:
             get_id = int(widget.get_value())
-        if get_id in all_ids:
+        id_exists = rpc.session.rpc_exec_auth('/object', 'execute', self.model, 'exists', [get_id])
+        if id_exists:
             current_ids = self.screen.ids_get()
             if get_id in current_ids:
                 self.screen.display(get_id)
